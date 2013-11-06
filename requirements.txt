@@ -1,0 +1,12 @@
+Sphinx
+ipython
+matplotlib
+nltk>=3.0a1
+numpy
+pandas
+patsy
+scikit-learn
+scipy
+sphinxcontrib-bibtex
+sphinxcontrib-tikz
+statsmodels

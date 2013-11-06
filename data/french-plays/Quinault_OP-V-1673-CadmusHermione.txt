@@ -1,0 +1,898 @@
+CADMUS et HERMIONE, TRAGÉDIE            
+        QUINAULT, Philippe            
+                    
+        Hâtez-vous, Pasteurs, accourez.            
+        La voix des oiseaux nous appelle.            
+        Nos champs sont éclairés.            
+        Nos coteaux sont dorés.            
+        Tout brille de l'éclat de la clarté nouvelle.            
+        Mille fleurs naissent dans nos prés :            
+        Que l'Astre qui nous luit rend la nature belle !            
+        Ne perdons pas un seul moment            
+        D'un jour si doux et si charmant.            
+        Admirons, admirons l'Astre qui nous éclaire,            
+        Chantons la gloire de son cours ;            
+        Que tout le Monde revère            
+        Le Dieu qui fait nos beaux jours.            
+        Que chacun se ressente            
+        De la douceur charmante,            
+        Que le Soleil répand sur ces heureux climats.            
+        Il n'est rien qui n'enchante            
+        Dans ces lieux pleins d'appas,            
+        Tout y rit, tout y chante,            
+        Hé pourquoi ne rirons-nous pas ?            
+        Quel désordre soudain ! quel bruit affreux redoutable !            
+        Que épouvantable fracas !            
+        Quels gouffres s'ouvrent sous nos pas !            
+        Le jour palît, le Ciel se trouble ;            
+        La Terre va vomir tout l'Enfer en courroux :            
+        Fuyons, fuyons, sauvons-nous, sauvons-nous.            
+        C'est trop voir le Soleil briller dans sa Carrière,            
+        Les Rayons qu'il lance en tous lieux,            
+        Ont trop blessé mes yeux ;            
+        Venez, noirs ennemis de sa vive lumière,            
+        Joignons nos transports furieux.            
+        Que chacun me seconde :            
+        Paraissez, Monstre affreux.            
+        Sortez ? Vents souterrains, des antres les plus creux,            
+        Volez, Tyrans des airs, troublez la Terre et l'Onde,            
+        Répandons la terreur ;            
+        Qu'avec nous le Ciel gronde :            
+        Que l'Enfer nous réponde ;            
+        Remplissons la Terre d'horreur :            
+        Que la Nature se confonde :            
+        Jetons dans tous les coeurs du monde            
+        La jalouse fureur            
+        Qui déchire mon coeur.            
+        Et vous Monstre, armez-vous pour nuire            
+        À cet astre puissant qui vous a su produire :            
+        Il répand trop de biens, il reçoit trop de voeux.            
+        Agitez vos marais bourbeux :            
+        Excitez contre lui mille vapeurs mortelles :            
+        Déployez, étendez vos ailes,            
+        Que tous les Vents impétueux            
+        S'efforcent d'éteindre ses feux.            
+        Osons tous obscurcir ses clartés les plus belles,            
+        Osons nous opposer à son cours trop heureux :            
+        Quels traits ont crevé le Nuage ?            
+        Quel Torrent enflammé s'ouvre un brillant passage !            
+        Tu triomphes, Soleil ? Tout cède à ton pouvoir ?            
+        Que d'honneurs tu vas recevoir !            
+        Ah quelle rage ! Ah quelle rage !            
+        Quel désespoir ! Quel désespoir !            
+        Chassons la crainte qui nous presse.            
+        Rien ne doit plus faire peur.            
+        Le Monstre est mort, l'orage cesse,            
+        Le soleil est vainqueur.            
+        Le monstre est mort, l'orage cesse,            
+        Le soleil est vainqueur.            
+        Qu'on lui prépare            
+        De superbes autels.            
+        Que l'on pare            
+        D'ornements immortels.            
+        Conservons la mémoire            
+        De sa victoire.            
+        Par mille honneurs divers,            
+        Répandons le bruit de sa gloire            
+        Jusqu'au bout de l'univers.            
+        Mais le soleil s'avance,            
+        Il se découvre aux yeux de tous.            
+        Respectons sa présence            
+        Par un profond silence,            
+        Écoutons, taisons-nous.            
+        Ce n'est point par l'éclat d'un pompeux sacrifice,            
+        Que je me plais à voir mes soins recompensés ;            
+        Pour prix de mes travaux ce me doit être assez,            
+        Que chacun en jouisse ;            
+        Je fais les plus doux de mes voeux            
+        De rendre tout le monde heureux.            
+        Dans ces lieux fortunés, les Muses vont descendre,            
+        Les jeux galants suivront leurs pas ;            
+        J'inspire les chants plein d'appas            
+        Que vous allez entendre :            
+        Tandis que je suivrai mon cours,            
+        Profitez des beaux jours.            
+        Profitons des beaux jours.            
+        Suivons tous la même envie.            
+        Profitons des beaux jours.            
+        Aimons, tout nous y convie.            
+        Profitons des beaux jours.            
+        Les plus beaux jours de la vie            
+        Sont perdus sans les Amours.            
+        Profitons des beaux jours.            
+        Heureux qui peut plaire !            
+        Heureux les amants !            
+        Leurs jours sont charmants :            
+        L'Amour sait leur faire            
+        Mille doux moments.            
+        Que sert la jeunesse            
+        Aux coeurs sans tendresse ?            
+        Qui n'a point d'amour            
+        N'a pas un beau jour.            
+        En vain l'Hiver passe,            
+        En vain dans les champs            
+        Tout charme nos sens,            
+        Une âme de glace            
+        N'a point de Printemps.            
+        Il faut se défaire            
+        d'un coeur trop sévère,            
+        Qui n'a point d'Amour            
+        N'a pas un beau jour.            
+        Peut-on mieux faire,            
+        Quand on sait plaire,            
+        Peut-on mieux faire            
+        Que d'aimer bien ;            
+        Quelque embarras que l'Amour fasse            
+        C'est toujours un charmant lien ;            
+        Trop de repos bien souvent embarrasse,            
+        Que fait-on d'un coeur qui n'aime rien ?            
+        L'Amour contente,            
+        Sa peine enchante,            
+        L'Amour contente,            
+        Tout en est bon.            
+        Dans les beaux jours de notre vie            
+        Les plaisirs sont dans leur saison,            
+        Et quelque peur d'amoureuse folie            
+        Vaut souvent mieux que trop de raison.            
+        Quoi, Cadmus, fils d'un roi qui tient sous sa puissance            
+        Les bords féconds du Nil et les climats brûlés ;            
+        Cadmus, après deux ans loin de Tyr écoulés,            
+        Étranger chez les grecs, n'a point d'impatience            
+        De revoir un pays dont il est l'espérance ?            
+        Et laisse sans regrets tant de coeurs désolés ?            
+        Nous suivons vos destins partout sans résistance :            
+        Faudra-t-il que toujours nous soyons exilés ?            
+        J'aimerais à revoir les lieux de ma naissance ;            
+        Mais avant que je puisse en goûter la douceur,            
+        J'ai juré d'achever une juste vengeance.            
+        Et cependant, Seigneur,            
+        Vous laissez en ces lieux languir votre grand coeur.            
+        Après avoir erré sur la Terre et sur l'Onde            
+        Sans trouver Europe ma Soeur ;            
+        Après avoir en vain cherché son ravisseur,            
+        Le ciel termine ici ma course vagabonde ;            
+        Et c'est pour obéir aux oracles des Dieux            
+        Qu'il faut m'arrêter en ces lieux.            
+        Si vous trouvez des Dieux dont l'ordre vous engage            
+        À choisir ce séjour ;            
+        Le dieu que votre coeur consulte davantage            
+        Est peut-être l'Amour.            
+        Serait-il possible            
+        Qu'un héros invincible            
+        Eût un coeur qu'Amour sut charmer ?            
+        Quel coeur n'est pas fait pour aimer ?            
+        Et pour être un héros doit-on être insensible ?            
+        Que sert contre Hermione un courage indompté ?            
+        Qui peut n'en pas être enchanté ?            
+        Le Dieu Mars est son père,            
+        Elle en a la noble fierté ;            
+        La mère d'Amour est sa mère,            
+        Elle en a la beauté.            
+        À quoi sert un amour qui n'a point d'espérance ;            
+        Hermione est sous la puissance.            
+        C'est un affreux géant, c'est un monstre odieux.            
+        Il est du sang de Mars, ce Dieu le favorise,            
+        Et c'est enfin à lui qu'Hermione est promise :            
+        Nul autre des mortels n'en doit être l'époux ;            
+        Et si vous en tentez la fatale entreprise,            
+        La Terre avec le Ciel s'armera contre vous.            
+        Hé bien je périrai si le Destin l'ordonne,            
+        Je veux délivrer Hermione :            
+        Et si je l'entreprends en vain,            
+        Je ne saurais périr pour un plus beau dessein.            
+        Où sont nos africains ? Que leur troupe s'avance :            
+        La Princesse veut voir leur plus galante danse.            
+        D'où vient qu'aucun d'eux ne paraît ?            
+        Vos ordres sont suivis, Seigneur, et tout est prêt !            
+        Mais le tyran s'est mis en tête            
+        Qu'il faut que ses géans dansent dans cette fête.            
+        Comment faire mouvoir des colosses affreux !            
+        Quand on lui dit, Comment ? Il répond, je le veux,            
+        Ces grands Hommes pleins de chimères            
+        Sont d'un raisonnement fâcheux,            
+        Et fiers d'être au-dessus des Hommes ordinaires            
+        Pensent que la Raison doit être au-dessous d'eux ;            
+        Je n'ai pu garder des mesures,            
+        J'ai pesté contre lui, j'ai vomi des injures,            
+        Je l'ai nommé tyran, cent fois.            
+        On doit toujours respect aux rois.            
+        Eut-il du m'étrangler, je n'aurais pu me taire :            
+        J'étais trop en colère ;            
+        Si je n'avais rien dit,            
+        J'aurais étouffé de dépit.            
+        Contentons le Géant, il est ici le maître ;            
+        Hermione est soumise à son cruel pouvoir :            
+        Ce divertissement, tel enfin qu'il puisse être,            
+        Me vaudra quelque temps le plaisir de la voir.            
+        S'il ne m'est pas permis de lui parler moi-même            
+        Et d'oser lui dire que je l'aime ;            
+        Du moins nos africains, par leurs chants les plus doux            
+        Pourront l'entretenir de mon amour extrême,            
+        En dépit d'un rival jaloux.            
+        Préparons tout en diligence,            
+        Hâtons-nous, la princesse avance.            
+        Allons.            
+        Toi ne suis point mes pas,            
+        Je vais voir le géant, il faut que tu l'évites.            
+        Non, non, nous n'aurons point de bruit, ni d'embarras            
+        Pour les injures que j'ai dites,            
+        Je les disais si bas            
+        Qu'il ne m'entendait pas.            
+        Cet aimable séjour            
+        Si paisible et si sombre,            
+        Offre du silence et de l'ombre            
+        À qui veut éviter le bruit, et le grand jour.            
+        Ah ! Que n'est-il aussi facile            
+        De trouver un asile            
+        Pour éviter l'Amour !            
+        L'impitoyable tyrannie,            
+        Dont je suis les barbares lois,            
+        Ne défend pas d'aimer le chant et l'harmonie :            
+        Vous qui me faites compagnie            
+        Répondez à ma voix.            
+        On a beau fuir l'Amour, on ne peut l'éviter,            
+        On n'oppose à ses traits qu'une défense vaine,            
+        On s'épargne bien de la peine,            
+        Quand on se rend sans résister.            
+        La peine d'aimer est charmante,            
+        Il n'est point de coeur qui s'exempte            
+        De payer ce tribut fatal.            
+        Si l'Amour épouvante            
+        Il fait plus de peur que de mal.            
+        Quel choix est en votre puissance ?            
+        Songez à quel époux le Ciel vous veut unir.            
+        Je frémis quand j'y pense,            
+        Pourquoi m'en fais-tu souvenir ?            
+        Vous êtes sans espoir du côté de la Terre :            
+        Le roi qui vous retient dans ce charmant séjour,            
+        A pour lui le Dieu de la Guerre ;            
+        Il a rassemblé dans sa Cour            
+        Les restes des Géants échappés du tonnerre.            
+        Gardez-vous pour Cadmus d'un malheureux amour,            
+        Le don de votre coeuur lui coûterait le jour.            
+        Ah ! Quelle cruauté de vouloir me contraindre            
+        À ce choix odieux que je ne puis souffrir !            
+        Tout le monde vous trouve à plaindre,            
+        Personne cependant n'ose vous secourir.            
+        Voici les Africains, mais les géants les suivent.            
+        Quoi partout les géants ? Quoi toujours nous troubler.            
+        C'est d'ordinaire ainsi que les plaisirs arrivent ;            
+        Quelque chagrin fâcheux s'y vient toujours mêler.            
+        Suivons, suivons l'Amour, laissons-nous enflammer,            
+        Ah ! Ah ! Ah ! qu'il est doux d'aimer !            
+        Quand l'Amour vous l'ordonne,            
+        Souffrons les rigueurs,            
+        Chérissons les langueurs,            
+        Il n'exempte personne            
+        De ses traits vainqueurs ;            
+        Quel péril nous étonne ?            
+        Laissons trembler les faibles coeurs.            
+        Suivons, suivons l'Amour, laissons-nous enflammer,            
+        Ah ! Ah ! Ah ! qu'il est doux d'aimer !            
+        Deux amants peuvent feindre            
+        Quand ils sont d'accord ;            
+        Plus l'Amour trouve à craindre,            
+        Plus il fait d'effort ;            
+        On a beau le contraindre,            
+        Il en est le plus fort.            
+        Suivons, suivons l'Amour, laissons-nous enflammer,            
+        Ah ! Ah ! Ah ! Qu'il est doux d'aimer !            
+        On n'a rien de charmant            
+        Aisément,            
+        Et sans alarmes :            
+        Mais tout plaît, en aimant,            
+        Il n'est point de tourment            
+        Qui n'ai des charmes ;            
+        Suivons, suivons l'Amour, laissons-nous enflammer,            
+        Ah ! Ah ! Ah ! Qu'il est doux d'aimer !            
+        Il est temps de finir ma peine            
+        Après tant d'injustes refus.            
+        Où voulez-vous aller ? Vous fuyez, inhumaine ?            
+        J'étAis pour voir ici quelques danses Africaines,            
+        Les Africains ne dansent plus ?            
+        Rien ne doit plus m'être contraire :            
+        Mars est pour moi, c'est votre père,            
+        C'est lui qui veut unir votre coeur et le mien.            
+        Je suis soeur de l'Amour, et Vénus est ma mère,            
+        S'ils ne sont pas pour vous, les contez-vous pour rien ?            
+        Il faut que votre destinée            
+        Suive l'ordre du Dieu dont vous tenez le jour ;            
+        Et toujours l'hyménée            
+        Ne prends pas l'avis de l'Amour.            
+        Vous craignez les raisons dont je puis vous confondre ?            
+        Vous ne m'écoutez pas ? Voulez-vous m'éviter ?            
+        Quand on n'a rien à répondre,            
+        À quoi sert-il d'écouter ?            
+        Je vous suivrai partout malgré votre colère,            
+        Sans cesse à vos regards je veux me présenter ;            
+        Et si ce n'est pas pour vous plaire,            
+        Ce sera pour vous tourmenter.            
+        C'est trop l'abandonner à ce cruel supplice :            
+        Il est temps d'éclater,            
+        Et d'oser tout tenter            
+        Contre tant d'injustice.            
+        C'est exposer vos jours à d'horribles hasards,            
+        Vous aurez à dompter l'affreux dragon de Mars.            
+        Il faut semer ses dents, et voir soudain la Terre            
+        En former des soldats pour vous faire la guerre.            
+        Voyez à quels dangers vous allez vous offrir.            
+        Je ne vois qu'Hermione, et je la vois souffrir :            
+        Tout cède à cette horreur extrême ;            
+        Il est moins affreux de mourir            
+        Que de voir souffrir ce qu'on aime.            
+        Rien ne me peut épouvanter :            
+        Malgré tant de périls, l'Amour veut que j'espère.            
+        Où vas-tu téméraire ?            
+        Où cours-tu te précipiter ?            
+        C'est l'épouse et la soeur du maître du tonerre,            
+        La mère du Dieu de la guerre,            
+        C'est Junon qui vient t'arrêter.            
+        Va, Cadmus, que rien ne t'étonne,            
+        Va, ne crains ni Junon, ni le Dieu des Combats :            
+        Ose secourir Hermione,            
+        Tu vois dans ton parti la guerrière Pallas,            
+        Cours aux plus grands dangers, je vais suivre tes pas,            
+        C'est Jupiter qui me l'ordonne.            
+        Pallas pour les amants se déclare en ce jour ;            
+        Qui l'aurait jamais osé croire ?            
+        Qui peut être contre l'Amour            
+        Quand il s'accorde avec la gloire ?            
+        Évite un courroux dangereux.            
+        Profite d'un avis fidèle.            
+        Fuis un trépas affreux.            
+        Cherche dans les périls une gloire immortelle.            
+        Entre deux déïtés qui suspendent mes voeux,            
+        Je n'ose résister à pas une des deux,            
+        Mais je suis l'Amour qui m'appelle.            
+        Je poursuivrai tes jours.            
+        Je vole à ton secours.            
+        Charite, il est trop vrai, Cadmus veut entreprendre            
+        De remettre Hermione en pleine liberté :            
+        Il l'a dit au tyran, et je viens de l'entendre !            
+        Et que dit le géant ? N'est-il point irrité ?            
+        Il rit de sa témérité,            
+        Mon maître doit voir la Princesse            
+        Avant d'attaquer le dragon furieux            
+        qui veille pour garder ces lieux ;            
+        Et l'Amour qui pour toi me presse            
+        Veut que je vienne aussi te faire mes adieux.            
+        En te voyant, belle Charite,            
+        J'avais cru que l'Amour fût un plaisir charmant ;            
+        Mais lorsqu'il faut que je te quitte,            
+        J'éprouve qu'il n'est point un plus cruel tourment.            
+        La douleur me saisit, je ne puis plus rien dire ;            
+        Quand je pleure, quand je soupire,            
+        Tu ris, et rien n'émeut ton coeur indifférent ?            
+        Tu fais la grimace en pleurant,            
+        Je ne puis m'empêcher de rire.            
+        La pitié, tout au moins, devrait bien t'engager            
+        À prendre quelque part à mes ennuis extrêmes.            
+        S'il est bien vrai que tu m'aimes,            
+        Pourquoi veux-tu m'affliger ?            
+        Pour soulager mon coeur du chagrin qui le presse,            
+        Te coûterait-il tant de l'affliger un peu ?            
+        C'est un poison que la tristesse,            
+        L'Amour n'est plus plaisant dès qu'il n'est plus un jeu.            
+        On console un amant des rigueurs de l'absence            
+        Par des tendres adieux.            
+        Quand il faut se quitter, un peu d'indifférence            
+        Console encore mieux.            
+        Tu me l'avais bien dit, qu'il était impossible            
+        Que ton barbare coeur perdit sa dureté.            
+        Au moins si tu te plains de me voir insensible,            
+        Tu dois être content de ma sincérité ;            
+        Puisqu'enfin pour te satisfaire            
+        Je ne puis pleurer avec toi ;            
+        Si tu voulais me plaire            
+        Tu rirais avec moi.            
+        C'est trop railler de mon martyre,            
+        Le dépit m'en doit délivrer ;            
+        N'est-on pas bien fou de pleurer            
+        Pour qui n'en fait que rire ?            
+        Guéris-toi, si tu peux,            
+        J'approuve ta colère ;            
+        Quand on désespère            
+        Un coeur amoureux ;            
+        C'est par un dépit heureux            
+        Qu'il faut se tirer d'affaire.            
+        Quand on désespère            
+        Un coeur amoureux ;            
+        C'est par un dépit heureux            
+        Qu'il faut se tirer d'affaire.            
+        Mais la nourrice vient, il me faut éloigner.            
+        Tu sais que tu lui plais, la veux-tu dédaigner ?            
+        C'est une conquête assez belle.            
+        Si je lui plais, tant pis pour elle.            
+        Quoi ! Dès que je parais, tu fuis au même instant ?            
+        Lorsqu'on a des amis, est-ce ainsi qu'on les quitte ?            
+        Le temps presse, et Cadmus m'attend.            
+        Quand tu parlais seul à Charite,            
+        Le temps ne te pressait pas tant :            
+        Quel charme a-t-elle qui t'attire ?            
+        Qu'ai-je qui te fait en aller ?            
+        J'avais à lui parler,            
+        Je n'ai rien à te dire.            
+        Je dois suivre Cadmus, nous partons de ce lieu.            
+        Me dire adieu, du moins, est une bienséance            
+        Dont rien ne te dispense.            
+        Je te dis donc adieu.            
+        Il me quitte, l'ingrat, il me fuit, l'infidèle !            
+        Ne crains pas que je te rappelle !            
+        Va, cours, je te laisse partir :            
+        Va, je n'ai plus pour toi qu'une haine mortelle :            
+        Puisses-tu rencontrer la mort la plus cruelle,            
+        Puisse le dragon t'engloutir.            
+        Crois-moi, modère            
+        L'éclat de ta colère ;            
+        Un dépit qui fait tant de bruit            
+        Fait trop d'honneur à qui nous fuit.            
+        Ah ! Vraiment je vous trouve bonne ?            
+        Est-ce à vous, peite Mignonne,            
+        De reprendre ce que je dis ?            
+        Attendez l'âge            
+        Où l'on est sage,            
+        Pour donner des avis.            
+        Je suis jeune, je le confesse,            
+        Trouves-tu ce défaut si digne de mépris ?            
+        N'a-t-on point de bons sens qu'en perdant la jeunesse ?            
+        Il serait bien cher à ce prix.            
+        Le temps doit mûrir les esprits,            
+        Et c'est le fruit de la vieillesse.            
+        Il n'est pas sûr que la sagesse            
+        Suive toujours les cheveux gris.            
+        Je souffre peu que l'on me blesse :            
+        Par des discours piquants            
+        Prétends-tu m'insulter sans cesse ?            
+        Je respecte trop tes vieux ans.             
+        Mais Cadmus, et la Princesse,            
+        Viennent dans ces lieux ;            
+        Ne troublons pas leurs adieux.            
+        Je vais partir, belle Hermione,            
+        Je vais exécuter ce que l'Amour m'ordonne,            
+        Malgré le péril qui m'attend :            
+        Je veux vous délivrer, ou me perdre moi-même ;            
+        Je vous vois, je vous dit enfin que je vous aime,            
+        C'est assez pour mourir content.            
+        Ah ! Cadmus, pourquoi m'aimez-vous ?            
+        Pourquoi vouloir chercher une mort trop certaine ?            
+        Eh ! Que peut la valeur humaine            
+        Contre le dieu Mars en courroux ?            
+        Voyez en quels périls votre Amour nous entraîne !            
+        J'aurais mieux aimer votre haine :            
+        Ah ! Cadmus, pourquoi m'aimez-vous ?            
+        Vous m'aimez, il suffit, ne soyez point en peine ?            
+        Mon destin, tel qu'il soit, ne peut être que doux.            
+        Vivons pour nous aimer, et cesser de poursuivre            
+        Le funeste dessein que vous avez formé :            
+        Il doit être bien doux de vivre,            
+        Lorsqu'on aime, et qu'on est aimé.            
+        Sous une injuste loi je vous vois asservie ;            
+        Serait-ce vous aimer que le pouvoir souffrir ?            
+        Lorsque pour ce qu'on aime on s'expose à périr,            
+        La plus affreuse mort a de quoi faire envie.            
+        Mais vous ne songez pas qu'il y va de la vie :            
+        Faut-il que pour mes jours vous soyez sans effroi ?            
+        Je vivrais sous l'injuste loi            
+        Où mon cruel destin me livre.            
+        Mais si vous périssez pour moi,            
+        Je ne pourrai pas vous survivre.            
+        J'ai besoin de secours, voulez-vous m'accabler ?            
+        Ah ! Princesse, est-il temps de me faire trembler ?            
+        Soyez sensible à mes alarmes !            
+        Je ne sens que trop vos douleurs.            
+        Partirez-vous malgré mes pleurs ?            
+        Il faut aller tarir la source de vos larmes.            
+        Quoi, vous m'allez quitter ?            
+        Je vais vous secourir.            
+        Ah ! vous allez périr !            
+        Vous cherchez une mort horrible ;            
+        Mon amour me dit trop que vous perdrez le jour.            
+        L'Amour que j'ai pour vous ne croit rien d'impossible :            
+        Il me flatte en partant d'un bienheureux retour.            
+        Croyez en mon amour,            
+        Vous n'écoutez point ma tendresse,            
+        Rien ne vous retient ?            
+        Le temps presse.            
+        Au nom des plus beaux noeuds que l'Amour ait formés,            
+        Vivez, si vous m'aimez.            
+        Espérons.            
+        Tout me désespère.            
+        Que je me veux de mal d'avoir trop sçû vous plaire !            
+        Qu'un tendre amour coûte d'ennuis !            
+        Vous fuyez ?            
+        Il le faut.            
+        Demeurez ?            
+        Je ne puis,            
+        Je m'affaiblis plus je diffère ;            
+        Il faut m'arracher de ce lieu.            
+        Ah ! Cadmus !            
+        Hermione !            
+        Adieu.            
+        Amour, vois quels maux tu nous fais,            
+        Où sont les biens que tu promets ;            
+        N'as-tu point pitié de nos peines ?            
+        Tes rigueurs les plus inhumaines            
+        Seront-elles toujours pour les plus tendres coeurs ?            
+        Pour qui, cruel Amour, gardes-tu tes douceurs ?            
+        Calme tes déplaisirs, dissipe tes alarmes,            
+        L'Amour vient essuyer tes larmes,            
+        Il n'abandonne pas ceux qui suivent ses lois.            
+        Souviens-toi que tout m'est possible :            
+        Que rien à mon abord ne demeure insensible ?            
+        Que pour la divertir tout s'anime à ma voi ?            
+        Cessez de vous plaindre            
+        De soufrir en aimant ;            
+        Amants, vous devez ne rien craindre,            
+        Si vous souffrez, votre prix est charmant.            
+        Après des rigueurs inhumaines            
+        On aime sans peines,            
+        On rit des jaloux ;            
+        Un bien plein de charmes            
+        Qui coûte des larmes,            
+        En devient plus doux.            
+        Tout doit rendre hommage            
+        À l'Empire amoureux ;            
+        Il faut tôt ou tard qu'on s'engage,            
+        Sans rien aimer on ne peut être heureux.            
+        Après des rigueurs inhumaines, etc...            
+        Amours, venez semer mille fleurs sous ses pas.            
+        Laissez-moi ma douleur, j'y trouve des appas.            
+        Dans l'horreur d'un péril extrême,            
+        Est-ce là le secours que l'on me doit offrir ?            
+        Peut-être ce que j'aime            
+        Est tout prêt de périr.            
+        Je vais le secourir.            
+        Tu détournes bien tes regards ?            
+        As-tu peur du dragon de Mars ?            
+        La défiance est nécessaire,            
+        Il est bon de prévoir un fâcheux accident,            
+        On ne doit point marcher ici en téméraire.            
+        C'est très bien fait d'être prudent.            
+        Je suis hardi quand il faut l'être ;            
+        Si quelqu'un en doutait, il pourrait le connaître.            
+        Qui voudrait s'attaquer à toi ?            
+        On te croit vaillant sur ta foi.            
+        Mais la couleur de ton visage            
+        Répond mal à ta valeur !            
+        Est-ce par la couleur            
+        Que l'on doit juger du courage ?            
+        Que tes sens paraissent troublés !            
+        Tu trembles ?            
+        C'est qu'il vous le semble :            
+        Chacun croit que l'on lui ressemble,            
+        C'est peut-être vous qui tremblez ?            
+        Que maudit soit l'Amour funeste            
+        Qui nous fait tant souffrir dans ce malheureux jour !            
+        On se soulage quand on peste,            
+        Et l'on ne saurait trop pester contre l'Amour.            
+        Gardons-nous bien d'avoir envie            
+        D'être jamais amoureux :            
+        De tous les maux de la vie            
+        L'Amour est le plus dangereux.            
+        Cadmus veut essayer de rendre Mars propice,            
+        C'est ici qu'il prétend offrir un sacrifice.            
+        Pour des soins différents il faut nous séparer.            
+        Allons nous préparer.            
+        Acquittons-nous des soins où Cadmus nous engage.            
+        Quel bruit ! Non, ce n'est rien, courage amis, courage !            
+        Qu'on a peine à donner du courage en tremblant            
+        Il ne tient pas à moi que je ne sois vaillant,            
+        Je tâche au moins de le paraître ;            
+        Je ne suis pas le seul qui se pique de l'être,            
+        Et qui n'en fait que le semblant.            
+        Il faut puiser de l'eau pour la cérémonie ;            
+        Avancez, je vous suis. Quel dragon furieux !            
+        Ô Dieux ! Ô Dieux !            
+        Ah ! C'est fait de ma vie.            
+        N'est-il point d'arbres, ou de rocher,            
+        Qui s'entrouve pour me cacher ?            
+        Où vas-tu ?            
+        Le Dragon...            
+        Hé bien ?            
+        Ah ! mon cher maître...            
+        Parle donc ?            
+        Le Dragon...            
+        Où le vois-tu paraître            
+        Je regarde partout, et je n'aperçois rien.            
+        Quoi le dragon nous suit ? Mais regardez bien ?            
+        Où sont les compagnons ? Qui t'oblige à te taire ?            
+        Tu parais interdit d'effroi ?            
+        Seigneur, vous jugez mal de moi,            
+        Si je suis interdit, ce n'est que de colère.            
+        Mes pauvres compagnons ! Hélas !            
+        Le dragon n'en a fait qu'un fort léger repas.            
+        Allons il faut que je les venge.            
+        Quelle hâte avez-vous que le Dragon vous mange ?            
+        Laissez-le se cacher. Ah ! Le voilà qui sort !            
+        Au secours ! Au secours ! Je suis mort ! Je suis mort !            
+        Ô ciel ! Où sera mon asile ?            
+        La frayeur me rend immobile ;            
+        Je ne saurais plus faire un pas :            
+        Ah ! cachons-nous, ne soufflons pas.            
+        Il ne faut plus que je diffère            
+        D'engager le Dieu Mars à calmer sa colère ;            
+        Si je puis l'adoucir, rien ne peut me troubler.            
+        Mes gens sont écartés, il faut les rassembler.            
+        Le Dragon assouvi de sang et de carnage,            
+        S'est enfin retiré dans quelque antre sauvage :            
+        Tout est calme en ces lieux, et je n'entends plus rien.            
+        Je sens revenir mon courage,            
+        Allons conter partout le trépas de mon maître            
+        Que je plains son funeste sort !            
+        Allons, mais que vois-je paraître !            
+        Le Dragon étendu ! Ne fait-il point le mort ?            
+        Non, je le vois percé, son sang coule, ah ! Le traître !            
+        Je ne puis contre lui retenir mon courroux,            
+        Et je lui veux donner au moins les derniers coups.            
+        Quoi l'épée à la main ! Que faut-il entreprendre ?            
+        De quel péril es-tu pressé ?            
+        Nous aurons soin de te défendre.            
+        Vous venez un peu tard, le péril est passé.            
+        Que voyons nous ! Qui l'eût pû croire ?            
+        Quoi le Dragon est abbattu !            
+        Nous en avons sans vous remporter la victoire.            
+        As-tu suivi Cadmus ?            
+        As-tu part à sa gloire ?            
+        Eh, nous n'étions pas loin quand il a combattu.            
+        Conte-nous ce combat.            
+        J'en suis si hors d'haleine.            
+        Que je ne puis encore m'exprimer qu'avec peine.            
+        Il est bon d'essuyer ce fer ensanglanté,            
+        De crainte qu'il ne soit gâté.            
+        Ah ! Quels chagrins pour nous de manquer l'avantage            
+        De signaler notre courage !            
+        Tous ces chagrins, et ces regrets            
+        Sont des soins qui ne coûtent guère,            
+        Quand on ne voit plus rien à faire            
+        On fait le brave à peu de frais.            
+        On prend peu garde à toi ; Cadmus nous rend justice,            
+        Mais il vient, rangeons-nous pour voir le sacrifice.            
+        Mars ! Ô toi qui peux            
+        Déchaîner quand tu veux            
+        Les fureurs de la guerre,            
+        Ô mars ! Reçois nos voeux.            
+        Ton funeste courroux n'est pas moins dangereux            
+        Que l'éclat fatal du tonnerre :            
+        Ô Mars ! Reçois nos voeux.            
+        Ô Mars ! Reçois nos voeux.            
+        Les combats sanglants sont tes jeux ;            
+        Tu sais, quand il te plaît, remplir toute la Terre            
+        De ravages affreux.            
+        Ô Mars ! Reçois nos voeux.            
+        Ô Mars ! Reçois nos voeux.            
+        Mars redoutable !            
+        Mars indomptable !            
+        Ô Mars ! ô Mars ! ô Mars !            
+        Mars redoutable !            
+        Mars indomptable !            
+        Ô Mars ! ô Mars ! ô Mars !            
+        Ô Mars impitoyable :            
+        Est-il révocable            
+        Que ta haine implacable            
+        Accable            
+        Une âme inébralable            
+        Au milieu des hasards.            
+        Ô Mars ! ô Mars ! ô Mars !            
+        Mars redoutable !            
+        Mars indomptable !            
+        Ô Mars ! ô Mars ! ô Mars !            
+        Que les tumultes des alarmes,            
+        Que le bruit, que le choc, que le fracas des armes,            
+        Retentisse de toutes parts.            
+        Ô Mars ! ô Mars ! ô Mars !            
+        Mars redoutable !            
+        Mars indomptable !            
+        Ô Mars ! ô Mars ! ô Mars !            
+        Qu'on fasse approcher la victime :            
+        Puisse-t-elle calmer le courroux qui t'anime,            
+        Et n'attirer sur nous que tes doux regards.            
+        Ô Mars ! ô Mars ! ô Mars !            
+        Mars redoutable !            
+        Mars indomptable !            
+        Ô Mars ! ô Mars ! ô Mars !            
+        C'est vainement que l'on espère            
+        Que d'inutiles voeux apaisent ma colère ;            
+        Je ne révoque point mes lois.            
+        Si Cadmus veut me satisfaire            
+        Qu'il achève, s'il peut, de mériter mon choix !            
+        Un vain respect ne peut me plaire,            
+        On ne satisfait Mars que par de grands exploits.            
+        Vous, que l'enfer a nourries            
+        Venez, cruelles Furies,            
+        Venez, brisez l'autel en cent morceaux épars !            
+        Ô Mars ! ô Mars ! ô Mars !            
+        Voici le Champ de Mars, il faut que sans remise            
+        J'achève ici mon entreprise ;            
+        J'ai les dents du dragon, et je vais les semer.            
+        Ce sont des ennemis que vous verrez former :            
+        Tant de soldats armés vont naître,            
+        Que vous serez d'abord accablé de leurs coups ;            
+        Et vous ne songez pas, peut-être,            
+        Que vous n'avez ici que moi seul avec vous.            
+        Je ne veux exposer personne            
+        Au péril où je m'abandonne ;            
+        Je dois combattre seul, et ne retiens que toi :            
+        Tu connais mon amour, je suis sûr de ta foi,            
+        Je veux bien que tu sois le dernier qui me quitte.            
+        Seigneur, vous m'honnorez plus que je ne mérite :            
+        Si je ne fais qu'un vain effort,            
+        Accompli ce que je t'ordonne :            
+        Sitôt que tu sauras ma mort,            
+        Hâtes-toi de voir Hermione :            
+        Va, porte-lui mes derniers voeux.            
+        Qu'elle vive, il suffit de plaindre un malheureux :            
+        Qu'elle ait soin de garder le souvenir fidèle            
+        D'une flamme si belle ;            
+        C'est l'unique prix que je veux            
+        De ce que j'aurai fait pour elle.            
+        Je ne prétends plus t'arrêter.            
+        Laisse-moi.            
+        Faut-il vous quitter ?            
+        Je le veux : obéis.            
+        Ah ! Quelle violence,            
+        Seigneur exigez-vous de mon obéissance.            
+        Cadmus reçoit le don que je viens t'apporter !            
+        C'est l'ouvrage du Dieu qui forge le tonnerre ;            
+        Ne manque pas de le jeter ;            
+        Il faut faire voir en ce jour            
+        Ce que peut un grand coeur secondé par l'Amour.            
+        Achève le dessein où mon ardeur t'engage.            
+        Je te vais obéir dans tarder davantage.            
+        Il faut faire voir en ce jour            
+        Ce que peut un grand coeur secondé par l'Amour.            
+        Arrêtons un transport funeste ;            
+        Pourquoi nous immoler en naissant dans ces lieux ?            
+        Réservons le sang qui nous reste,            
+        Pour servir un héros favorisé des Dieux.            
+        Allez : que dans ces murs chacun de vous s'empresse            
+        De rendre hommage à la princesse            
+        Qui doit donner ici des ordres absolus ;            
+        Vos premiers respects lui sont dûs,            
+        Je vous suivrai de près, c'est ma plus douce envie.            
+        Cherchons nos tiriens, ils tremblent pour ma vie.             
+        Allons les rassurer, voyons de toutes parts.            
+        Non, ce n'est point assez d'avoir satisfait Mars :            
+        Tu vois un ennemi qu'il faut encore abbattre,            
+        Au lieu de triompher recommence à combattre.            
+        Combattons.            
+        J'ai pitié du péril que tu cours :            
+        Il m'est honteux de vaincre avec tant d'avantage,            
+        Va, fuir, et cède moi l'objet de nos amours.            
+        Tu n'auras plus de Dieux qui défendent tes jours.            
+        Les dieux m'ont donné du courgae,            
+        Et c'est un assez grand secours.            
+        Voyons s'il n'est rien qui t'étonne.            
+        Qu'on vienne à moi, qu'on l'environne !            
+        Qu'on le perce de tous côtés !            
+        Cadmus fermez les yeux. Perfides arrêtez.            
+        Vois, Cadmus, vois quel supplice            
+        A puni leur injustice.            
+        Que vois-je ! Les géants armés            
+        Ne sont plus des corps animés.            
+        Je t'ai promis mon assistance,            
+        Je vais te préparer un superbe Palais :            
+        Je veux joindre aux douceurs d'un hymen plein d'attraits,            
+        L'éclat, et la magnificence.            
+        Goûte en paix un sort glorieux.            
+        Va, n'écoute plus rien que l'amour qui t'anime ;            
+        Hermione vient dans ces lieux.            
+        Par quel remerciement faut-il que je m'exprime ?            
+        Protéger la vertu d'un prince magnanime,            
+        C'est le plus doux emploi des Dieux.            
+        Ma princesse !            
+        Cadmus !            
+        Quel bonheur !            
+        Quelle gloire !            
+        Je vous vois libre enfin !            
+        Je vous revois vainqueur ?            
+        Quelle favorable victoire !            
+        Qu'elle a coûté cher à mon coeur !            
+        Que c'est un charmant avantage            
+        Que de pouvoir sauver d'un cruel esclavage            
+        La beauté dont on est charmé !            
+        Que c'est un sort digne d'envie            
+        Que de pouvoir tenir le bonheur de sa vie,            
+        De la main d'un vainqueur aimé !            
+        Après des rigueurs inhumaines,            
+        Le ciel favorise nos voeux ;            
+        Ah ! Que le souvenir des peines            
+        Est doux quand on devient heureux.            
+        Dieux ! Je ne vois plus Hermione !            
+        Quel nuage épais l'environne !            
+        Tu vois l'effet de mon courroux,            
+        Il faut combattre encore Junon et sa puissance.            
+        Le soin que prend pour toi mon infidèle époux            
+        Attire sur tes feux l'éclat de ma vengeance.            
+        Iris, détruis l'espoir de cet audacieux !            
+        Enlève sur ton arc Hermione à ses yeux.            
+        Exécute à l'instant ce que Junon t'ordonne.            
+        Ô Ciel !            
+        Ô Ciel, ô ciel ! Hermione, Hermione.            
+        Belle Hermione, hélas, puis-je être heureux sans vous ?            
+        Que sert dans ce palais la pompe qu'on prépare ?            
+        Tout espoir est perdu pour nous ?            
+        Le bonheur d'un amour si fidèle, et si rare,            
+        Jusques entre les Dieux a trouvé des jaloux.            
+        Belle Hermione, hélas, puis-je être heureux sans vous ?            
+        Nous nous étions flattés que notre sort barbare            
+        Avait épuisé son courroux :            
+        Quelle rigueur quand on sépare            
+        Deux coeurs prêts d'être unis par des Liens si doux ?            
+        Belle Hermione, hélas, puis-je être heureux sans vous.            
+        Tes voeux vont être satisfaits ;            
+        Jupiter et Junon ont fini leur querelle,            
+        L'Amour lui-même a fait leur paix ;            
+        Ton Hermione enfin descend dans ce palais,            
+        Des Dieux s'avancent avec elle ;            
+        Le Ciel veut que ce jour soit célébré à jamais.            
+        Que ce qui suit les lois du Maître du tonnerre,            
+        Que les Cieux, et la Terre,            
+        S'accordent pour combler vos voeux.            
+        Après un sort si rigoureux,            
+        Après tant de peines cruelles,            
+        Amants fidèles,            
+        Vivez heureux.            
+        Après un sort si rigoureux,            
+        Après tant de peines cruelles,            
+        Amants fidèles,            
+        Vivez heureux.            
+        L'Hymen veut vous offrir ses chaines les plus belles.            
+        Junon en veut former les noeuds.            
+        Amants fidèles,             
+        Vivez heureux.            
+        Vénus vous donnera des douceurs éternelles.            
+        J'écarterai de vous les fatales querelles,            
+        Et les ennemis dangereux.            
+        Amants fidèles,             
+        Vivez heureux.            
+        Attendez de Pallas mille faveurs nouvelles.            
+        L'amour conservera toujours de si beaux feux.            
+        Après un sort si rigoureux,            
+        Après tant de peines cruelles,            
+        Amants fidèles,             
+        Vivez heureux.            
+        Hymen, prend soin ici des Danses et des Jeux.            
+        Amants fidèles,             
+        Vivez heureux.            
+        Venez, Dieu des festins, aimables Jeux, venez ;            
+        Comblez de vos douceurs ces époux fortunés            
+        Tandis que tout le ciel prépare            
+        Les dons qu'il leur a destinés,            
+        La terre y doit mêler ce qu'elle a de plus rare.            
+        Venez, Dieu des festins, aimables jeux, venez ;            
+        Comblez de vos douceurs ces époux fortunés.            
+        Serons-nous dans le silence            
+        Quand on rit, et quand on danse :            
+        Les chagrins ont eu leur temps,            
+        Pour jamais le Ciel les chasse,            
+        Les plaisirs ont pris leur place ;            
+        Lorsque deux coeurs sont constants            
+        Tôt ou tard ils sont contents.            
+        Qu'il est doux quand on soupire,            
+        De sortir d'un long martyre :            
+        Les chagrins ont eu leur temps,             
+        Pour jamais le Ciel les chasse,            
+        Les plaisirs ont pris leur place ;             
+        Lorsque deux coeurs sont constants             
+        Tôt ou tard ils sont contents.            
+        Amants, aimez vos chaînes,            
+        Vos soins et vos soupirs ;            
+        L'Amour suivant vos peines,            
+        Mesure vos plaisirs.            
+        Il cause des alarmes,            
+        Il vend bien cher ses charmes ;            
+        Mais pour un si grand bien            
+        Tous les maux ne sont rien.            
+        Sans une aimable flamme            
+        La vie est sans appas ;            
+        Qui peut toucher une âme            
+        Qu'Amour ne touche pas ?            
+        Il cause des alarmes,            
+        Il vend bien cher ses charmes ;            
+        Mais pour un si grand bien            
+        Tous les maux ne sont rien.            
+        Après un sort si rigoureux,            
+        Après tant de peines cruelles,            
+        Amants fidèles,            
+        Vivez heureux.            
+        
