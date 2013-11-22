@@ -7,13 +7,19 @@ quantitative text analysis with a particular focus on the preparation of a text
 corpus for analysis and on exploratory analysis using topic models and machine
 learning.
 
-These tutorials are addressed to an audience in the humanities and social
-sciences.
-
 Building
 ========
 
 The project relies heavily on the ``ipython`` Sphinx directive, which is
 somewhat fragile.
 
-See ``requirements.txt`` for the packages required for building.
+Building the documentation may be accomplished by the following sequence of
+commands. Python 3.3 or higher is required.
+
+#. Install required packages:
+   
+   ``pip install -r requirements.txt``
+
+#. Build the documentation:
+
+   ``make html``
