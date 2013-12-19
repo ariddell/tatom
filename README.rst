@@ -16,7 +16,10 @@ somewhat fragile.
 Building the documentation may be accomplished by the following sequence of
 commands. Python 3.3 or higher is required.
 
-#. Install required packages:
+#. Install required packages. The packages and version numbers are listed in
+   ``requirements.txt``. In theory the command below should download and install
+   all the packages but in practice there are dependencies that prevent this
+   from working. Some packages may need to be installed one by one.
    
    ``pip install -r requirements.txt``
 
