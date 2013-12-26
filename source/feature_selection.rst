@@ -136,7 +136,7 @@ Finding distinctive words requires a decision about what "distinctive" means.
 As we will see, there are a variety of definitions that we might use.  It seems
 reasonable to expect that all definitions of distinctive would identify as
 distinctive words found exclusively in texts associated with a single author (or
-a single group). For example, if Brontë uses the word "access" and Austen never
+group). For example, if Brontë uses the word "access" and Austen never
 does, we should count "access" as distinctive. A more challenging question is
 how to treat words that occur in both groups of texts but do so with different
 rates.
@@ -523,7 +523,7 @@ half the difference between the population means for the distributions
 characterizing word rates in Austen and Brontë. We aren't concerned with whether
 or not it is negative or positive, but we do care whether or not it is likely to
 be zero. In fact, we need to have a measure of how confident we are that
-:math:`\deta` is something other than zero (implying no difference in means).
+:math:`\delta` is something other than zero (implying no difference in means).
 If, for instance, the moment that samples of :math:`\delta` tend to be negative;
 we need to know the posterior probability of its being definitively less than
 zero, :math:`\textrm{p}(\delta < 0)`. This probability can be estimated from the
@@ -739,7 +739,7 @@ The log likelihood ratio is calculated as follows:
 
 .. math::
 
-    \sum_i O_i \times \ln \frac{O_i/E_i}
+    \sum_i O_i \times \ln \frac{O_i}{E_i}
 
 where :math:`i` indexes the cells. (Note the similarity of this formula to the
 calculation of :ref:`mutual information <mutual_information>`.) In Python:
@@ -839,7 +839,7 @@ a small number of documents and a very large vocabulary. Feature selection is
 perfectly capable of pulling out features that are characteristic of any
 division of texts.
 
-.. note:: The shorthand :math:`n >> p` is used to describe situations where
+.. note:: The shorthand :math:`n << p` is used to describe situations where
     the number of variables greatly outnumbers the number observations.
     :math:`n` is the customary label for the number of observations and
     :math:`p` refers to the number of covariates.
