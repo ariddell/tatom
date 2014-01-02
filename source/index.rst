@@ -28,25 +28,19 @@ sciences.
    datasets
    references
 
-..  
-    Unfinished drafts
-    -----------------
-    
-    .. toctree::
-       :maxdepth: 1
-    
-       case_study_miranda
-       supreme_court_vincent
-       dynamic_topic_model
-       predicting_frequencies
+..  unfinished drafts:
+    predicting_frequencies
 
 .. figure:: _static/plot_doctopic_heatmap.png
     :scale: 60 %
     :alt: Heatmap of topic shares in the ``austen-brontë`` corpus. See :ref:`topic_model_visualization`.
 
 .. raw:: html
-    :file: generated/visualization_topic_model_words.txt    
+    :file: generated/visualization_topic_model_words.txt
 
 These tutorials were written by `Allen Riddell <http://ariddell.org>`_.
 :ref:`case-study-racine` is coauthored with `Christof Schöch
 <http://www.christof-schoech.de>`_.
+
+Comments are welcome, as are reports of bugs and typos. Please use the
+`project's issue tracker <https://github.com/ariddell/tatom/>`.

@@ -274,14 +274,14 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = 'Text Analysis with Topic Models for the Geisteswissenschaften'
+epub_title = 'TAToM: Text Analysis with Topic Models for the Geisteswissenschaften'
 epub_author = 'Allen B. Riddell'
 epub_publisher = 'Allen B. Riddell'
-epub_copyright = '2013, Allen B. Riddell'
+epub_copyright = '2014, Allen B. Riddell'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
-#epub_language = ''
+epub_language = 'en'
 
 # The scheme of the identifier. Typical schemes are ISBN or URL.
 #epub_scheme = ''
