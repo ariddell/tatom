@@ -8,13 +8,6 @@ These tutorials make use of a number of Python packages. This section describes
 how to install these packages. (If you do not already have Python 3 installed on
 your system you may wish to skip to the section :ref:`installing-python`.)
 
-.. note::
-
-    An IPython Notebook with all the required libraries is available at the
-    following address: http://ipython.machinereadings.org:5555/. The password is
-    "wuerzburg".
-
-
 Required Python packages
 ========================
 The tutorials collected here assume that Python version 3.3 or higher is
@@ -184,13 +177,10 @@ Python is handled in homebrew.
 
 Installing packages on Windows
 ------------------------------
+
 There are a number of distributions of Python for Windows that come pre-packaged
 with packages relevant to scientific computing such as NumPy and SciPy. They
-include, for example, `Anaconda Python <https://store.continuum.io/cshop/anaconda>`_.
-
-Installing packages from source under Windows requires some patience. As the
-packages used in this tutorial are widely used, instructions on installing
-specific packages are not difficult to find. For example, instructions on how to
-install ``scikit-learn`` (which includes installing NumPy and SciPy) in
-a Windows environment may be found at the ``scikit-learn`` website: `Installing
-scikit-learn <http://scikit-learn.org/stable/install.html>`_.
+include, for example, `Anaconda Python
+<https://store.continuum.io/cshop/anaconda>`_. Anaconda includes almost all the
+packages used here. Also available are `instructions on how to use Python 3 with
+Anaconda <http://continuum.io/blog/anaconda-python-3>`.
