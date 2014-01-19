@@ -33,8 +33,8 @@ revolutionary activity in *Les Misérables*:
 revolutionary *Les Amis de l'ABC*.)
 
 .. note:: Probabilistic models such as topic models often benefit from
-incorporating information about where an individual text falls in a larger
-sequence of texts :cite:`blei_dynamic_2006`.
+    incorporating information about where an individual text falls in a larger
+    sequence of texts :cite:`blei_dynamic_2006`.
 
 
 Plotting trends

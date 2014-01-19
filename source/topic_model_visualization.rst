@@ -378,7 +378,7 @@ words.  We do this by calculating the proportion of words assigned to topic
 turn will turn our matrix of word-topic counts into a matrix of word-topic
 proportions. For example, a value of 0.5 in the matrix at row 5 and column
 0 indicates that the specified word type (``mallet_vocab[5]``) accounts for 50
-  percent of all words assigned to topic 0.
+percent of all words assigned to topic 0.
 
 .. ipython:: python
 
