@@ -14,7 +14,8 @@ The project relies heavily on the ``ipython`` Sphinx directive, which is
 somewhat fragile.
 
 Building the documentation may be accomplished by the following sequence of
-commands. Python 3.3 or higher is required.
+commands. The core requirements are: Python 3.3 or higher and Sphinx 1.2 or
+higher.
 
 #. Install required packages. The packages and version numbers are listed in
    ``requirements.txt``. In theory the command below should download and install

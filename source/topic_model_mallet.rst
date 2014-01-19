@@ -111,7 +111,7 @@ should look something like this:
    ...
 
 The first two columns of ``doc-topics.txt`` record the document number
-(0-indexed) and the full path to the filename. The rest of the columns are best
+(0-based indexing) and the full path to the filename. The rest of the columns are best
 considered as (topic-number, topic-share) pairs. There are as many of these
 pairs as there are topics. All columns are separated by tabs (there's even
 a trailing tab at the end of the line). With the exception of the header (the
@@ -387,7 +387,7 @@ most frequent words in each text.
         print("{}: {}".format(novels[i], top_topics_str))
 
 .. note:: Recall that, like everything else in Python (and C, Java, and many
-    other languages), the topics are zero-indexed; the first topic is topic 0.
+    other languages), the topics use 0-based indexing; the first topic is topic 0.
 
 Each topic in the topic model can be inspected. Each topic is a distribution
 which captures in probabilistic terms, the words associated with the topic and
