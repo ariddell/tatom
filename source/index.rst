@@ -43,4 +43,4 @@ These tutorials were written by `Allen Riddell <http://ariddell.org>`_.
 <http://www.christof-schoech.de>`_.
 
 Comments are welcome, as are reports of bugs and typos. Please use the
-`project's issue tracker <https://github.com/ariddell/tatom/>`_.
+`project's issue tracker <https://github.com/ariddell/tatom/issues>`_.
