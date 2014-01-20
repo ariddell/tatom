@@ -4,12 +4,15 @@
  Working with text
 ===================
 
+.. note:: This tutorial is also available in download for interactive use
+   with `IPython Notebook <http://ipython.org/notebook.html>`_: :download:`Working with text.ipynb <Working with text.ipynb>`.
+
 Creating a document-term matrix
 ===============================
 
 Word (or n-gram) frequencies are typical units of analysis when working with
 text collections.  It may come as a surprise that reducing a book to a list of
-word frequencies retains any useful information, but practice has shown this to
+word frequencies retains useful information, but practice has shown this to
 be the case. Treating texts as a list of word frequencies (a vector) also makes
 available a vast range of mathematical tools developed for `studying and
 manipulating vectors <http://en.wikipedia.org/wiki/Euclidean_vector#History>`_.
@@ -42,7 +45,7 @@ the customary abbreviation for functions in the ``numpy`` package.
 Now we use the `CountVectorizer
 <http://scikit-learn.sourceforge.net/dev/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html>`_
 class to create a document-term matrix. ``CountVectorizer`` is customizable. For
-example, a list of "stop words" can be specified with the `stop_words`
+example, a list of "stop words" can be specified with the ``stop_words``
 parameter. Other important parameters include:
 
 - ``lowercase`` (default ``True``) convert all text to lowercase before
@@ -58,6 +61,9 @@ parameter. Other important parameters include:
   will include these tokens
 - ``tokenizer`` (default unused) use a custom function for tokenizing
 
+For this example we will use texts by Jane Austen and Charlotte Brontë. These
+texts are available in :ref:`datasets`.
+
 .. ipython:: python
 
     filenames = ['data/austen-brontë/Austen_Emma.txt',
@@ -69,7 +75,7 @@ parameter. Other important parameters include:
 
     vectorizer = CountVectorizer(input='filename')
     dtm = vectorizer.fit_transform(filenames)  # a sparse matrix
-    vocab_list = vectorizer.get_feature_names()
+    vocab = vectorizer.get_feature_names()  # a list
 
 Now we have a document-term matrix and a vocabulary list. Before we can query
 the matrix and find out, for example, how many times the word 'house' occurs in
@@ -85,7 +91,7 @@ a list.
     # for reference, note the current class of `dtm`
     type(dtm)
     dtm = dtm.toarray()  # convert to a regular array
-    vocab = np.array(vocab_list)
+    vocab = np.array(vocab)
 
 .. note:: A sparse matrix only records non-zero entries and is used to store
     matrices that contain a significant number of entries that are zero. To
