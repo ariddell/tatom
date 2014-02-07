@@ -82,7 +82,7 @@ release = '1.0.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['data/', 'vkvn-sphinx-themes-6fefb6c']
+exclude_patterns = ['data/', 'themes/']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -115,8 +115,8 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 # html_theme = 'sphinxdoc'
 
-html_theme = 'f6'
-html_theme_path = ['./vkvn-sphinx-themes-6fefb6c/']
+html_theme = 'sphinxdoc'
+#html_theme_path = ['./themes/']
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
