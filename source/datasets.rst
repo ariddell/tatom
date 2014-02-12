@@ -1,3 +1,7 @@
+.. index:: datasets, French plays, British novels, stop words
+   single: Austen, Jane
+   single: Brontë, Charlotte
+   single: Hugo, Victor
 .. _datasets:
 
 ==========

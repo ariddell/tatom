@@ -1,3 +1,4 @@
+.. index:: Python, NumPy, matplotlib
 .. _getting-started:
 
 =================

@@ -1,3 +1,7 @@
+.. index:: Les Misérables
+   pair: visualization; trends
+   single: Hugo, Victor
+
 .. _visualizing-trends:
 
 ====================
@@ -20,7 +24,7 @@ standard.[#fn_les_mis]_ The novel comes in five volumes ("Fantine", "Cosette",
 "Marius", "The Idyll in the Rue Plumet and the Epic in the Rue St. Denis", and
 "Jean Valjean"). And within each volume we have a sequence of chapters. (And
 within each chapter we have a sequence of paragraphs, ...). In this section we
-will address how to visualize topic shares in sequence.  
+will address how to visualize topic shares in sequence.
 
 To whet your appetite, consider the rise and fall of a topic associated with
 revolutionary activity in *Les Misérables*:
@@ -224,7 +228,7 @@ novel where the topic appears:
     plt.plot(series, '.', alpha=0.3)
     plt.plot(series_smooth, '-', linewidth=2)
     plt.vlines(volume_indexes, ymin=0, ymax=np.max(series))
-    text_xs = np.array(volume_indexes) + np.diff(np.array(volume_indexes + [max(xs)]))/2 
+    text_xs = np.array(volume_indexes) + np.diff(np.array(volume_indexes + [max(xs)]))/2
     text_ys = np.repeat(max(series), len(volume_names)) - 0.05
     for x, y, s in zip(text_xs, text_ys, volume_names):
         plt.text(x, y, s, horizontalalignment='center')
@@ -233,7 +237,7 @@ novel where the topic appears:
     plt.ylabel("Topic share")
     plt.xlabel("Novel segment")
     plt.ylim(0, max(series))
-    
+
     @savefig plot_topics_over_time_series_les_misérables.png width=7in
     plt.tight_layout()
 

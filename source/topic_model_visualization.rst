@@ -1,3 +1,4 @@
+.. index:: visualization, topic model
 .. _topic-model-visualization:
 
 ==========================

@@ -1,5 +1,7 @@
 .. _predicting:
 
+.. NOTE: THIS IS CURRENTLY UNUSED
+
 =============================
  Predicting Word Frequencies
 =============================

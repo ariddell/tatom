@@ -1,3 +1,4 @@
+.. index:: topic model, MALLET
 .. _topic-model-mallet:
 
 ============================

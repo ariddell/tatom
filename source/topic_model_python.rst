@@ -1,3 +1,4 @@
+.. index:: topic model, non-negative matrix factorization, NMF
 .. _topic-model-python:
 
 ==========================

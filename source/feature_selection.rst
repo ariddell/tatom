@@ -1,3 +1,7 @@
+.. index:: feature selection, distinctive words, Bayesian t-test, keyness, chi-squared test, Dunning log-likelihood, G-test
+   single: Austen, Jane
+   single: Brönte, Charlotte
+
 .. _feature-selection:
 
 ==============================================

@@ -1,3 +1,4 @@
+.. index:: Racine, case-study, theatre
 .. _case-study-racine:
 
 ===============================================

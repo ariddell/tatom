@@ -1,3 +1,4 @@
+.. index:: preprocessing, document-term matrix, tokenization, hyphenation, stemming
 .. _preprocessing:
 
 ===============

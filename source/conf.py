@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Text Analysis with Topic Models for the Geisteswissenschaften documentation build configuration file, created by
-# sphinx-quickstart on Wed Jun  5 20:52:53 2013.
+# Text Analysis with Topic Models configuration file
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -58,7 +57,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Text Analysis with Topic Models for the Geisteswissenschaften'
+project = 'Text Analysis with Topic Models for the Humanities and Social Sciences'
 copyright = '2013, Allen B. Riddell'
 
 # The version info for the project you're documenting, acts as replacement for

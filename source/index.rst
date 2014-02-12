@@ -1,4 +1,4 @@
-.. Text Analysis with Topic Models for the Geisteswissenschaften documentation master file
+.. Text Analysis with Topic Models for the Humanities and Social Sciences
 
 TAToM: Text Analysis with Topic Models for the Humanities and Social Sciences
 =============================================================================
@@ -7,9 +7,6 @@ TAToM: Text Analysis with Topic Models for the Humanities and Social Sciences
 consists of a series of tutorials covering basic procedures in quantitative text
 analysis. The tutorials cover how to prepare a text corpus for analysis and how
 to explore a collection of texts using topic models and machine learning.
-
-These tutorials are addressed to an audience in the humanities and social
-sciences.
 
 .. toctree::
    :maxdepth: 2

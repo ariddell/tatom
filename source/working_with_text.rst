@@ -1,3 +1,4 @@
+.. index:: document-term matrix, tokenizing, CountVectorizer, n-gram, word frequency
 .. _working-with-text:
 
 ===================

@@ -1,3 +1,4 @@
+.. index:: classification, machine learning, logistic regression
 .. _classification-machine-learning:
 
 ===========================================================

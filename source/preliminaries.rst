@@ -1,3 +1,4 @@
+.. index:: Python, installing Python, Python modules
 .. _preliminaries:
 
 ================
