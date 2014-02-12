@@ -127,10 +127,10 @@ html_theme = 'sphinxdoc'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = "Text Analysis with Topic Models for the Humanities and Social Sciences"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-#html_short_title = None
+html_short_title = None
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -188,7 +188,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'TextAnalysiswithTopicModelsfortheGeisteswissenschaftendoc'
+htmlhelp_basename = 'TextAnalysiswithTopicModelsdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -208,7 +208,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'TextAnalysiswithTopicModelsfortheGeisteswissenschaften.tex', 'Text Analysis with Topic Models for the Geisteswissenschaften',
+  ('index', 'TextAnalysiswithTopicModels.tex', 'Text Analysis with Topic Models for the Humanities and Social Sciences',
    'Allen B. Riddell', 'manual'),
 ]
 
@@ -238,7 +238,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'textanalysiswithtopicmodelsforthegeisteswissenschaften', 'Text Analysis with Topic Models for the Geisteswissenschaften',
+    ('index', 'textanalysiswithtopicmodels', 'Text Analysis with Topic Models for the Humanities and Social Sciences',
      ['Allen B. Riddell'], 1)
 ]
 
@@ -252,8 +252,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'TextAnalysiswithTopicModelsfortheGeisteswissenschaften', 'Text Analysis with Topic Models for the Geisteswissenschaften',
-   'Allen B. Riddell', 'TextAnalysiswithTopicModelsfortheGeisteswissenschaften', 'One line description of project.',
+  ('index', 'TextAnalysiswithTopicModels', 'Text Analysis with Topic Models for the Humanities and Social Sciences',
+   'Allen B. Riddell', 'TextAnalysiswithTopicModels', 'Text analysis tutorials.',
    'Miscellaneous'),
 ]
 
@@ -273,7 +273,7 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = 'TAToM: Text Analysis with Topic Models for the Geisteswissenschaften'
+epub_title = 'Text Analysis with Topic Models for the Humanities and Social Sciences'
 epub_author = 'Allen B. Riddell'
 epub_publisher = 'Allen B. Riddell'
 epub_copyright = '2014, Allen B. Riddell'
