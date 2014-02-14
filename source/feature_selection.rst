@@ -11,7 +11,7 @@
 .. ipython:: python
     :suppress:
 
-    import numpy as np; np.set_printoptions(precision=3)
+    import numpy as np; np.set_printoptions(precision=2)
 
 We often want to know what words distinguish one group of texts from another
 group of texts. For instance, we might be working with an archive of two city
@@ -44,6 +44,7 @@ files:
 .. raw:: html
     :file: generated/feature_selection_bayesian.txt
 
+
 We will find that among the words that reliably distinguish Austen from Brontë
 are  "such", "could", and "any". This tutorial demonstrates how we arrived at
 these words.
@@ -51,7 +52,7 @@ these words.
 .. ipython:: python
     :suppress:
 
-    N_WORDS_DISPLAY = 23
+    N_WORDS_DISPLAY = 11
 
     import os
     import nltk
@@ -120,15 +121,15 @@ with documents of this length (e.g., a newspaper article).
 
     filenames_short = [fn.rstrip('.txt') for fn in filenames]
 
-    html = pd.DataFrame(np.round(rates[:, 100:110], 3), index=filenames_short, columns=vocab[100:110]).to_html()
+    html = pd.DataFrame(np.round(rates[:, 100:105], 2), index=filenames_short, columns=vocab[100:105]).to_html()
     with open(os.path.join(OUTPUT_HTML_PATH, 'feature_selection_rates.txt'), 'w') as f:
         f.write(html)
 
 .. ipython:: python
 
-    # just examine a sample, those at offsets 100 to 110
-    rates[:, 100:110]
-    vocab[100:110]
+    # just examine a sample, those at offsets 100 to 105
+    rates[:, 100:105]
+    vocab[100:105]
 
 .. raw:: html
     :file: generated/feature_selection_rates.txt
@@ -188,7 +189,7 @@ cases where the average rate is zero for one author.
                      cbronte_rates_avg[distinctive_indices][ranking][0:N_WORDS_DISPLAY]])
     colnames = vocab[distinctive_indices][ranking][0:N_WORDS_DISPLAY]
     rownames = ['Austen', 'Brontë']
-    html = pd.DataFrame(np.round(arr,3), index=rownames, columns=colnames).to_html()
+    html = pd.DataFrame(np.round(arr, 2), index=rownames, columns=colnames).to_html()
     with open(os.path.join(OUTPUT_HTML_PATH, 'feature_selection_distinctive.txt'), 'w') as f:
         f.write(html)
 
@@ -243,7 +244,7 @@ Austen-Brontë comparison as follows:
                      cbronte_rates[:, ranking][:, 0:N_WORDS_DISPLAY]])
     colnames = vocab[ranking][0:N_WORDS_DISPLAY]
     rownames = ["--keyness--"] + filenames_short
-    html = pd.DataFrame(np.round(arr,3), index=rownames, columns=colnames).to_html()
+    html = pd.DataFrame(np.round(arr, 2), index=rownames, columns=colnames).to_html()
     with open(os.path.join(OUTPUT_HTML_PATH, 'feature_selection_distinctive_avg_diff.txt'), 'w') as f:
         f.write(html)
 
@@ -294,7 +295,7 @@ a heuristic, it does move us in the right direction.
                      cbronte_rates[:, ranking][:, 0:N_WORDS_DISPLAY]])
     colnames = vocab[ranking][0:N_WORDS_DISPLAY]
     rownames = ["--keyness--"] + filenames_short
-    html = pd.DataFrame(np.round(arr,3), index=rownames, columns=colnames).to_html()
+    html = pd.DataFrame(np.round(arr, 2), index=rownames, columns=colnames).to_html()
     with open(os.path.join(OUTPUT_HTML_PATH, 'feature_selection_distinctive_avg_diff_divided_by_avg.txt'), 'w') as f:
         f.write(html)
 
@@ -567,7 +568,7 @@ characteristic of the Brontë novels than the Austen novels.
     arr = [keyness, austen_rates_avg[ix], cbronte_rates_avg[ix]]
     colnames = vocab[ix]
     rownames = ['p(delta<0)', 'Austen average', 'Bronte average']
-    html = pd.DataFrame(np.round(arr,3), index=rownames, columns=colnames).to_html()
+    html = pd.DataFrame(np.round(arr, 2), index=rownames, columns=colnames).to_html()
     with open(os.path.join(OUTPUT_HTML_PATH, 'feature_selection_bayesian_dark_green.txt'), 'w') as f:
         f.write(html)
 
@@ -619,14 +620,14 @@ positive or negative:
     vocab[ranking][0:10]
 
 .. ipython:: python
-    ::suppress::
+    :suppress:
 
     arr = np.vstack([keyness[ranking][0:N_WORDS_DISPLAY],
                      austen_rates[:, ranking][:, 0:N_WORDS_DISPLAY],
                      cbronte_rates[:, ranking][:, 0:N_WORDS_DISPLAY]])
     colnames = vocab[ranking][0:N_WORDS_DISPLAY]
     rownames = ["--keyness--"] + filenames_short
-    html = pd.DataFrame(np.round(arr,3), index=rownames, columns=colnames).to_html()
+    html = pd.DataFrame(np.round(arr, 1), index=rownames, columns=colnames).to_html()
     with open(os.path.join(OUTPUT_HTML_PATH, 'feature_selection_bayesian.txt'), 'w') as f:
         f.write(html)
 
@@ -677,7 +678,7 @@ appearance of the word "green" we may assemble a table with the following code:
     green_table
 
 .. ipython:: python
-    ::suppress::
+    :suppress:
 
     arr = green_table
     colnames = ['"green"', 'not "green"']
@@ -783,7 +784,7 @@ a feature selection method:
                      cbronte_rates[:, ranking][:, 0:N_WORDS_DISPLAY]])
     colnames = vocab[ranking][0:N_WORDS_DISPLAY]
     rownames = ["--keyness--"] + filenames_short
-    html = pd.DataFrame(np.round(arr,2), index=rownames, columns=colnames).to_html()
+    html = pd.DataFrame(np.round(arr, 1), index=rownames, columns=colnames).to_html()
     with open(os.path.join(OUTPUT_HTML_PATH, 'feature_selection_distinctive_chi2.txt'), 'w') as f:
         f.write(html)
 
