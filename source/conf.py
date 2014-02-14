@@ -324,6 +324,7 @@ epub_language = 'en'
 # If false, no index is generated.
 #epub_use_index = True
 
+mathjax_path = "https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {

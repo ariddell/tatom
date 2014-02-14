@@ -94,9 +94,11 @@
         HAS_SOURCE:  {{ has_source|lower }}
       };
     </script>
+    <script type="text/javascript" src="_static/bootstrap.js"></script>
     {%- for scriptfile in script_files %}
     <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
     {%- endfor %}
+
 {%- endmacro %}
 
 {%- macro css() %}
@@ -163,6 +165,26 @@
 {%- block extrahead %} {% endblock %}
   </head>
   <body>
+<div class="navbar navbar-inverse navbar-static-top navbar-dariah">
+<div class="navbar-inner">
+    <div class="container">
+        <ul class="nav">
+        <li class="dropdown">
+        <a href="https://de.dariah.eu"
+class="dropdown-toggle brand" data-toggle="dropdown">DARIAH-DE <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li><a href="http://www.dariah.eu/" target="_blank">DARIAH-EU</a></li>
+            <!--li><a href="">DARIAH-FR</a></li-->
+            <!--li><a href="">DARIAH-IT</a></li-->
+        </ul>
+        </li>
+            <li class="hidden-phone"><a href="http://dhd-blog.org/" target="_blank">DHd-Blog</a></li>
+        </ul>
+      </div> <!-- container -->
+</div> <!-- navbar-inner -->
+</div> <!-- navbar -->
+
+<div class="container">
 <div class="span11 main-content-wrapper no-margin ">
   <div class="primary-area">
 {%- block header %}{% endblock %}
@@ -186,7 +208,7 @@
       </div>
   {%- endblock %}
 
-  {%- block sidebar2 %}{{ sidebar() }}{% endblock %}
+  {%- block sidebar2 %}{% endblock %} {# sidebar originally here #}
       <div class="clearer"></div>
     </div>
 {%- endblock %}
@@ -198,9 +220,9 @@
     <p>All materials are published under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International</a> license (CC-BY 4.0).</p>
     <p>Comments are welcome, as are reports of bugs and typos. Please use the <a class="reference external" href="https://github.com/ariddell/tatom/">project&#8217;s issue tracker</a>.</p>
     <p>These tutorials have been developed with support from the <a href="http://de.dariah.eu">DARIAH-DE</a> initiative, the German branch of <a href="http://dariah.eu">DARIAH-EU</a>, the European Digital Research Infrastructure for the Arts and Humanities consortium. Funding has been provided by the German Federal Ministry for Research and Education (BMBF) under the identifier 01UG1110J.</p>
-    <a class="reference internal image-reference" href="_static/DARIAH-DE-Logo.png"><img alt="DARIAH-DE Digital Research Infrastructure for the Arts and Humanities, Germany" src="_static/DARIAH-DE-Logo.png" style="width: 220.0px; height: 120.0px;" /></a>
-    <a class="reference internal image-reference" href="_static/BMBF-Logo.png"><img alt="Bundesministerium für Bildung und Forschung, Germany" src="_static/BMBF-Logo.png" style="width: 240.0px; height: 120.0px;" /></a>
-    <a href="https://portal-de.dariah.eu/web/guest/contact">Impressum</a>
+    <a class="reference internal image-reference" href="http://de.dariah.eu"><img alt="DARIAH-DE Digital Research Infrastructure for the Arts and Humanities, Germany" src="_static/DARIAH-DE-Logo.png" style="width: 220.0px; height: 120.0px;" /></a>
+    <a class="reference internal image-reference" href="http://bmbf.de"><img alt="Bundesministerium für Bildung und Forschung, Germany" src="_static/BMBF-Logo.png" style="width: 240.0px; height: 120.0px;" /></a>
+    <a href="https://de.dariah.eu/contact">Impressum</a>
 
     {%- if show_copyright %}
       {%- if hasdoc('copyright') %}
@@ -219,5 +241,6 @@
 {%- endblock %}
   </div>
 </div>
+</div> <!-- container -->
   </body>
 </html>

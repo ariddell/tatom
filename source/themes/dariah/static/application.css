@@ -17,11 +17,11 @@
  */
 @font-face {
     font-family: 'MuseoSansRounded700';
-    src: url('../fonts/museosansrounded_700_macroman/MuseoSansRounded-700-webfont.eot');
-    src: url('../fonts/museosansrounded_700_macroman/MuseoSansRounded-700-webfont.eot?iefix') format('eot'),
-         url('../fonts/museosansrounded_700_macroman/MuseoSansRounded-700-webfont.woff') format('woff'),
-         url('../fonts/museosansrounded_700_macroman/MuseoSansRounded-700-webfont.ttf') format('truetype'),
-         url('../fonts/museosansrounded_700_macroman/MuseoSansRounded-700-webfont.svg#webfontAhOK7zbK') format('svg');
+    src: url('/liferay-dariah-theme/fonts/museosansrounded_700_macroman/MuseoSansRounded-700-webfont.eot');
+    src: url('/liferay-dariah-theme/fonts/museosansrounded_700_macroman/MuseoSansRounded-700-webfont.eot?iefix') format('eot'),
+         url('/liferay-dariah-theme/fonts/museosansrounded_700_macroman/MuseoSansRounded-700-webfont.woff') format('woff'),
+         url('/liferay-dariah-theme/fonts/museosansrounded_700_macroman/MuseoSansRounded-700-webfont.ttf') format('truetype'),
+         url('/liferay-dariah-theme/fonts/museosansrounded_700_macroman/MuseoSansRounded-700-webfont.svg#webfontAhOK7zbK') format('svg');
     font-weight: normal;
     font-style: normal;
 
