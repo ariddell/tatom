@@ -195,6 +195,13 @@
 
 {%- block footer %}
     <div class="footer">
+    <p>All materials are published under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International</a> license (CC-BY 4.0).</p>
+    <p>Comments are welcome, as are reports of bugs and typos. Please use the <a class="reference external" href="https://github.com/ariddell/tatom/">project&#8217;s issue tracker</a>.</p>
+    <p>These tutorials have been developed with support from the <a href="http://de.dariah.eu">DARIAH-DE</a> initiative, the German branch of <a href="http://dariah.eu">DARIAH-EU</a>, the European Digital Research Infrastructure for the Arts and Humanities consortium. Funding has been provided by the German Federal Ministry for Research and Education (BMBF) under the identifier 01UG1110J.</p>
+    <a class="reference internal image-reference" href="_static/DARIAH-DE-Logo.png"><img alt="DARIAH-DE Digital Research Infrastructure for the Arts and Humanities, Germany" src="_static/DARIAH-DE-Logo.png" style="width: 220.0px; height: 120.0px;" /></a>
+    <a class="reference internal image-reference" href="_static/BMBF-Logo.png"><img alt="Bundesministerium für Bildung und Forschung, Germany" src="_static/BMBF-Logo.png" style="width: 240.0px; height: 120.0px;" /></a>
+    <a href="https://portal-de.dariah.eu/web/guest/contact">Impressum</a>
+
     {%- if show_copyright %}
       {%- if hasdoc('copyright') %}
         {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
