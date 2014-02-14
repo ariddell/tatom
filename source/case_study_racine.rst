@@ -1,9 +1,9 @@
 .. index:: Racine, case-study, theatre
 .. _case-study-racine:
 
-===============================================
- Case study: Racine's early and late tragedies
-===============================================
+==============================================================
+ Case study: Racine's early and late tragedies [#fn_authors]_
+==============================================================
 
 This tutorial describes two stages of an analysis of a collection of French
 tragedies: (1) exploratory data analysis and (2) a closer quantitative reading
@@ -463,6 +463,10 @@ Investigating why the works of a radical Enlightenment figure like Voltaire
 should so strongly resemble Racine's is left as an exercise for the reader.
 
 .. FOOTNOTES
+
+.. [#fn_authors] This tutorial was written by `Allen Riddell <http://ariddell.org>`_.
+   and `Christof Schöch <http://www.christof-schoech.de>`_.
+
 
 .. [#fn_authorship_attribution] Such signatures do not always appear.
    They can be eliminated with some modest effort on the part of the writer
