@@ -5,7 +5,7 @@
  Working with text
 ===================
 
-.. note:: This tutorial is also available in download for interactive use
+.. note:: This tutorial is available for interactive use
    with `IPython Notebook <http://ipython.org/notebook.html>`_: :download:`Working with text.ipynb <Working with text.ipynb>`.
 
 Creating a document-term matrix

@@ -128,11 +128,6 @@ documentation in the Python library `itertools
 <http://docs.python.org/dev/library/itertools.html>`_ describes a function
 called ``grouper`` using ``itertools.izip_longest`` that solves our problem.
 
-.. [#fnmapreduce] Those familiar with
-    `MapReduce <https://en.wikipedia.org/wiki/MapReduce>`_ may recognize the pattern of
-    splitting a dataset into smaller pieces and then (re)ordering them.
-
-
 .. ipython:: python
     :suppress:
 
@@ -483,3 +478,11 @@ to be associated more strongly with Austen's novels than with Brontë's.
 
 .. raw:: html
     :file: generated/topic_model_distinctive_avg_diff.txt
+
+.. FOOTNOTES
+
+.. [#fnmapreduce] Those familiar with
+    `MapReduce <https://en.wikipedia.org/wiki/MapReduce>`_ may recognize the pattern of
+    splitting a dataset into smaller pieces and then (re)ordering them.
+
+

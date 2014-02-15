@@ -438,6 +438,8 @@ This shows us that a greater diversity of vocabulary items are associated with
 topic 3 (likely many of the French words that appear only in Brontë's *The
 Professor*) than with topic 0.
 
+.. FOOTNOTES
+
 .. [#fnpritchard] The topic model now familiar as LDA was independently
     discovered and published in 2000 by Pritchard et al.
     :cite:`pritchard_inference_2000`.

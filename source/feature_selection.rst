@@ -38,18 +38,6 @@ This :ref:`corpus of six novels <datasets>` consists of the following text
 files:
 
 .. ipython:: python
-
-    filenames
-
-.. raw:: html
-    :file: generated/feature_selection_bayesian.txt
-
-
-We will find that among the words that reliably distinguish Austen from Brontë
-are  "such", "could", and "any". This tutorial demonstrates how we arrived at
-these words.
-
-.. ipython:: python
     :suppress:
 
     N_WORDS_DISPLAY = 11
@@ -65,6 +53,18 @@ these words.
     AUSTEN_FILENAMES = ['Austen_Emma.txt', 'Austen_Pride.txt', 'Austen_Sense.txt']
     CBRONTE_FILENAMES = ['CBronte_Jane.txt', 'CBronte_Professor.txt', 'CBronte_Villette.txt']
     filenames = AUSTEN_FILENAMES + CBRONTE_FILENAMES
+
+.. ipython:: python
+
+    filenames
+
+We will find that among the words that reliably distinguish Austen from Brontë
+are  "such", "could", and "any". This tutorial demonstrates how we arrived at
+these words.
+
+.. raw:: html
+    :file: generated/feature_selection_bayesian.txt
+
 
 .. note:: The following features an introduction to the concepts underlying
     feature selection. Those who are working with a very large corpus and are
@@ -345,13 +345,7 @@ in Brontë's novels were much more variable, say, 0.03, 0.04, and 0.66 (0.24 on
 average).  Although the averages remain the same, the difference does not seem
 so pronounced; with only one observation (0.66) noticeably greater than we find in Austen, we
 might reasonably doubt that there is evidence of a systematic difference between
-the authors. [#fnlyon]_
-
-.. [#fnlyon] Unexpected spikes in word use happen all the time. Word usage in a large corpus
-    is notoriously "bursty" (a technical term!) :cite:`church_poisson_1995`.
-    Consider, for example, ten French novels, one of which is set in Lyon.
-    While "Lyon" might appear in all novels, it would appear much (much) more
-    frequently in the novel set in the city.]
+the authors. [#fn_lyon]_
 
 One way of formalizing a comparison of two groups that takes account of the
 variability of word usage comes from Bayesian statistics. To describe our
@@ -640,7 +634,7 @@ This produces a useful ordering of characteristic words. Unlikely `frequentist
 observations within groups. This method will also work for small corpora
 provided useful prior information is available. To the extent that we are
 interested in a close reading of differences of vocabulary use, the Bayesian
-method should be preferred. [#fnunderwood]_
+method should be preferred. [#fn_underwood]_
 
 .. _chi2:
 
@@ -936,7 +930,13 @@ Exercises
 
 .. FOOTNOTES
 
-.. [#fnunderwood] Ted Underwood has written a `blog post discussing some of the
+.. [#fn_lyon] Unexpected spikes in word use happen all the time. Word usage in a large corpus
+    is notoriously *bursty* :cite:`church_poisson_1995`.
+    Consider, for example, ten French novels, one of which is set in Lyon.
+    While "Lyon" might appear in all novels, it would appear much (much) more
+    frequently in the novel set in the city.]
+
+.. [#fn_underwood] Ted Underwood has written a `blog post discussing some of the
    drawbacks of using the log likelihood and chi-squared test statistic in the
    context of literary studies <http://tedunderwood.com/2011/11/09/identifying-the-terms-that-characterize-an-author-or-genre-why-dunnings-may-not-be-the-best-method/>`_.]
 
