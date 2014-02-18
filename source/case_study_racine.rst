@@ -64,7 +64,7 @@ create a histogram with the matplotlib function ``hist``.
     import matplotlib.pyplot as plt
 
     plt.hist(lengths)
-    @savefig case_study_voltaire_hist.png width=7in
+    @savefig case_study_voltaire_hist.png width=8in
     plt.title("Play length in words")
 
     # find the longest and the shortest texts
@@ -109,7 +109,7 @@ variation---cosine distance is an appropriate choice for a measure of distance.
     for x, y, name in zip(xs, ys, names):
         plt.text(x, y, name, alpha=0.5, fontsize=10)
 
-    @savefig plot_voltaire_mds.png width=11.3in height=7in 
+    @savefig plot_voltaire_mds.png width=8in
     plt.tight_layout()
 
 This kind of plot can get overwhelming. A dendrogram plot offers an alternative
@@ -130,7 +130,7 @@ above.
     plt.figure(figsize=(11.3, 11.3))  # we need a tall figure
     # match dendrogram to that returned by R's hclust()
     dendrogram(linkage_matrix, orientation="right", labels=names, leaf_font_size=5);
-    @savefig plot_voltaire_ward_dendrogram.png width=11.3in
+    @savefig plot_voltaire_ward_dendrogram.png width=8in
     plt.tight_layout()  # fixes margins
 
 It should come as no surprise that texts by the same author tend to be adjacent
@@ -178,7 +178,7 @@ benefit of showing the nearly ten year gap between plays in the 1680s.)
     # gca() stands for get current axes. Axes are a matplotlib primitive.
     # See http://matplotlib.org/users/pyplot_tutorial.html#working-with-multiple-figures-and-axes 
     ax = plt.gca()
-    @savefig plot_racine_voltaire_rastergram.png width=7in
+    @savefig plot_racine_voltaire_rastergram.png width=8in
     ax.yaxis.set_visible(False)
 
 A provisional explanation for why the late plays stand out might draw on
@@ -346,7 +346,7 @@ a heatmap, a procedure which should be familiar from
     # add a legend
     plt.colorbar(cmap='Blues')
 
-    @savefig plot_racine_doctopic_heatmap.png width=10in
+    @savefig plot_racine_doctopic_heatmap.png width=8in
     plt.tight_layout()  # fixes margins
 
 Looking at this heatmap, a number of topics stand out as ones which we might
@@ -372,7 +372,7 @@ also be a useful measure.)
     topics_by_std[0:10]
 
     # First we gather the words most associated with each topic
-    num_top_words = 25
+    num_top_words = 17
     topic_words = []
     @suppress
     assert len(clf.components_[0]) == len(vocab)
