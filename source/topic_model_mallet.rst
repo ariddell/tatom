@@ -57,6 +57,9 @@ parts as follows:
 Running MALLET
 ==============
 
+.. note:: The ``nltk`` package provides a thin wrapper for MALLET which may be
+   worth investigating. See ``nltk.classify.mallet``.
+
 On Linux and BSD-based systems (such as OS X), the following commands should
 download and extract MALLET:
 
@@ -268,14 +271,16 @@ novel.
     import pandas as pd
     OUTPUT_HTML_PATH = os.path.join('source', 'generated')
     rownames = sorted(set(novel_names))
-    colnames = ["Topic " + str(i + 1) for i in range(doctopic.shape[1])]
-    html = pd.DataFrame(np.round(doctopic, 2), index=rownames, columns=colnames).to_html()
+    colnames = ["Topic " + str(i) for i in range(doctopic.shape[1])][0:15]
+    html = pd.DataFrame(np.round(doctopic[:,0:15], 2), index=rownames, columns=colnames).to_html()
     with open(os.path.join(OUTPUT_HTML_PATH, 'topic_model_doctopic.txt'), 'w') as f:
         f.write(html)
 
 .. raw:: html
     :file: generated/topic_model_doctopic.txt
 
+In order to fit into the space available, the table above displays the first 15
+of 20 topics.
 
 Inspecting the topic model
 ==========================
