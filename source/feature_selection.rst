@@ -401,9 +401,9 @@ important. These are the prior distributions that we will use:
 
 We need to determine suitable values for the priors' parameters
 (called hyperparameters): :math:`\mu_0,
-\tau_0^2, \gamma_0^2, \nu_0, \text{and} \sigma_0^2`. Let us consider
+\tau_0^2, \gamma_0^2, \nu_0`, and :math:`\sigma_0^2`. Let us consider
 :math:`\mu_0` and :math:`\sigma_0^2` first. While words like "the" and "she"
-occur quite frequently, the almost all words occur less than four times per
+occur quite frequently, almost all words (>99%) occur less than four times per
 1,000 words:
 
 .. ipython:: python
@@ -416,14 +416,14 @@ occur quite frequently, the almost all words occur less than four times per
     mquantiles(rates, prob=[0.01, 0.5, 0.99])
 
 In keeping with this observation we will set :math:`\mu_0` to be 3 and
-:math:`\gamma_0^2` to be :math:`1.5^2`, with the reasoning that when drawing
+:math:`\tau^2` to be :math:`1.5^2`, with the reasoning that when drawing
 from a normal distribution, the great majority (.95) of observations will fall
 between two standard deviations of the mean. There isn't tremendous variability
 in rates across the works of a single author, so we will set :math:`\sigma_0^2`
 to be 1 and :math:`\nu_0` to be 1. (If we were to use non-conjugate priors we
-could more realistically model our prior beliefs about rates.) We know there is
+could model our prior beliefs about rates more realistically.) We know there is
 considerable variability in the rates *between* authors, so we will choose
-:math:`\tau_0^2` to be :math:`1.5^2`, as :math:`\delta` represents half the
+:math:`\gamma_0^2` to be :math:`1.5^2`, as :math:`\delta` represents half the
 difference between the means and its value is unlikely to be greater than 3 in
 absolute value.
 
