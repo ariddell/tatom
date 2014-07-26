@@ -120,7 +120,7 @@ On recent versions of Debian and Ubuntu as well as Fedora Linux there are
 recompiled packages available that cover almost all of the requirements. With
 ``apt-get`` most of the requirements are installed with the following command::
 
-    sudo apt-get install python3-numpy python3-scipy python3-pandas python3-matplotlib python3-ipython
+    sudo apt-get install python3-numpy python3-scipy python3-pandas python3-matplotlib ipython3
 
 Using pip
 ~~~~~~~~~
