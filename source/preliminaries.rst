@@ -16,17 +16,17 @@ installed along with the following packages:
 
 - `NumPy <http://numpy.org>`_ version 1.7 or higher
 - `SciPy <http://scipy.org>`_ version 0.12 or higher
-- `matplotlib <http://matplotlib.org>`_ version 1.2 or higher
-- `Pandas <http://pandas.pydata.org/>`_ version 0.11 or higher.
+- `matplotlib <http://matplotlib.org>`_ version 1.3.1 or higher
+- `Pandas <http://pandas.pydata.org/>`_ version 0.14.1 or higher.
 - `NLTK <http://nltk.org>`_ version 3.0 or higher
-- `scikit-learn <http://scikit-learn.org>`_ version 0.13.1 or higher
+- `scikit-learn <http://scikit-learn.org>`_ version 0.15.0 or higher
 
 .. note::
 
     As of this writing, `NLTK 3.0 "alpha" <http://nltk.org/nltk3-alpha>`_ is the
     only version released that works with Python 3. It must be :ref:`installed
-    from source <installing-from-source>`. If you have ``pip`` just use:
-    ``pip install http://nltk.org/nltk3-alpha/nltk-3.0a3.tar.gz``
+    from source <installing-from-source>`. If you have ``pip`` available just
+    use: ``pip install http://nltk.org/nltk3-alpha/nltk-3.0a4.tar.gz``
 
 If these packages are installed, the following lines of code should run in
 a Python interpreter without error.
@@ -48,8 +48,8 @@ a Python interpreter without error.
 
 The following packages are also worth checking out:
 
-- `IPython <http://www.ipython.org>`_ version 1.0 or higher.
-- `statsmodels <http://statsmodels.sourceforge.net/>`_ version 0.5.0 or higher.
+- `IPython <http://www.ipython.org>`_
+- `statsmodels <http://statsmodels.sourceforge.net/>`_
 
 .. ipython:: python
 
@@ -58,11 +58,10 @@ The following packages are also worth checking out:
     import statsmodels
     statsmodels.__version__
 
-.. note:: Why Python 3? Python 3 
-   :ref:`stores strings as Unicode <python:textseq>`. This makes working with
-   languages other than English immeasurably easier. Python 3.3 in particular
-   contains a number of :ref:`significant improvements <python:whatsnew-index>`
-   that speed up Python's handling of Unicode text.
+.. note:: Why Python 3? Python 3 :ref:`stores strings as Unicode <python:textseq>`.
+   This makes working with languages other than English immeasurably easier. In
+   Python 3, "文" and "ø" are characters like "a" and "o" and require no special
+   handling.
 
 .. _installing-python:
 
@@ -128,7 +127,7 @@ Installing the required packages is straightforward if the `pip
 <http://www.pip-installer.org/>`_ installer is available. For example,
 NLTK may be installed with the following command::
 
-    pip install http://nltk.org/nltk3-alpha/nltk-3.0a1.tar.gz
+    pip install http://nltk.org/nltk3-alpha/nltk-3.0a4.tar.gz
 
 ``scikit-learn`` may also be installed with ``pip``::
 
@@ -138,28 +137,29 @@ NLTK may be installed with the following command::
 
 Installing from source
 ~~~~~~~~~~~~~~~~~~~~~~
-If ``pip`` is not available, the packages may be installed from source. Source
-"tarballs" for NumPy and matplotlib can be obtained and installed with the
-following sequence of commands. To install NumPy from source use the following
-commands::
 
-    curl -O https://pypi.python.org/packages/source/n/numpy/numpy-1.7.1.tar.gz
+``pip`` should be available on any system with Python 3.4 or higher installed. If ``pip``
+is not available, the packages may be installed from source. Source "tarballs"
+for NumPy and matplotlib can be obtained and installed with the following
+sequence of commands. To install NumPy from source use the following commands::
+
+    curl -O https://pypi.python.org/packages/source/n/numpy/numpy-1.8.1.tar.gz
     tar zxvf numpy-1.7.1.tar.gz
     cd numpy-1.7.1
     python setup.py install
 
 To install matplotlib from source, enter the following commands::
 
-    curl -O -L https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.2.1/matplotlib-1.2.1.tar.gz
-    tar zxvf matplotlib-1.2.1.tar.gz
-    cd matplotlib-1.2.1
+    curl -O -L https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.3.1/matplotlib-1.3.1.tar.gz
+    tar zxvf matplotlib-1.3.1.tar.gz
+    cd matplotlib-1.3.1
     python setup.py install
 
 To install NTLK::
 
-    curl -O http://nltk.org/nltk3-alpha/nltk-3.0a3.tar.gz
-    tar zxvf nltk-3.0a3.tar.gz
-    cd nltk-3.0a3
+    curl -O http://nltk.org/nltk3-alpha/nltk-3.0a4.tar.gz
+    tar zxvf nltk-3.0a4.tar.gz
+    cd nltk-3.0a4
     python setup.py install
 
 Installing packages on Mac OS X
