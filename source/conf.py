@@ -336,3 +336,6 @@ intersphinx_mapping = {
     'python': ('http://docs.python.org/3.3', None),
     'sklearn': ('http://scikit-learn.org/stable', None)
 }
+
+# Mathjax url
+mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
