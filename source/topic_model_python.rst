@@ -166,13 +166,17 @@ Now we will average those topic shares associated with the same novel together
     import pandas as pd
     OUTPUT_HTML_PATH = os.path.join('source', 'generated')
     rownames = sorted(set(novel_names))
-    colnames = ["NMF Topic " + str(i + 1) for i in range(doctopic.shape[1])]
-    html = pd.DataFrame(np.round(doctopic, 2), index=rownames, columns=colnames).to_html()
+    colnames = ["NMF Topic " + str(i + 1) for i in range(doctopic.shape[1])][0:15]
+    html = pd.DataFrame(np.round(doctopic[:,0:15], 2), index=rownames, columns=colnames).to_html()
     with open(os.path.join(OUTPUT_HTML_PATH, 'NMF_doctopic.txt'), 'w') as f:
         f.write(html)
 
 .. raw:: html
     :file: generated/NMF_doctopic.txt
+
+In order to fit into the space available, the table above displays the first 15
+of 20 topics.
+
 
 Inspecting the NMF fit
 ======================
