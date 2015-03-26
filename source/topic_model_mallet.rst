@@ -230,7 +230,7 @@ called ``grouper`` using ``itertools.izip_longest`` that solves our problem.
     assert np.all(doctopic > 0)
     assert np.allclose(np.sum(doctopic, axis=1), 1)
     assert len(doctopic) == len(filenames)
-    assert all(doctopic_orig == doctopic)
+    assert np.all(doctopic_orig == doctopic)
 
 Now we will calculate the average of the topic shares associated with each
 novel. Recall that we have been working with small sections of novels. The
@@ -252,6 +252,8 @@ novel.
 
     @suppress
     assert len(set(novel_names)) == 6
+    @supress
+    doctopic_orig = doctopic.copy()
 
     # use method described in preprocessing section
     num_groups = len(set(novel_names))
@@ -294,6 +296,7 @@ and fashioned a representation that preserves important features in a matrix
 that is 813 by 20 (5% the size of the original).
 
 .. ipython:: python
+    :okwarning:
 
     from sklearn.feature_extraction.text import CountVectorizer
 
@@ -325,7 +328,7 @@ that is 813 by 20 (5% the size of the original).
 .. ipython:: python
     :suppress:
 
-    assert dtm.shape[0] == doctopic.shape[0]
+    assert dtm.shape[0] == doctopic_orig.shape[0]
     # NOTE: the IPython directive seems less prone to errors when these blocks
     # are split up.
     xs, ys = pos[:, 0], pos[:, 1]
@@ -426,6 +429,7 @@ Now we have everything we need to list the words associated with each topic.
 
 .. ipython:: python
 
+    N_WORDS_DISPLAY = 10
     for t in range(len(topic_words)):
         print("Topic {}: {}".format(t, ' '.join(topic_words[t][:N_WORDS_DISPLAY])))
 

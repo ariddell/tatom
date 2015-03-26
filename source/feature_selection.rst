@@ -89,6 +89,7 @@ appealing feature of word rates per 1,000 words is that readers are familiar
 with documents of this length (e.g., a newspaper article).
 
 .. ipython:: python
+    :okwarning:
 
     import os
     import nltk
