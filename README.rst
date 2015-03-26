@@ -24,6 +24,11 @@ higher.
    
    ``pip install -r requirements.txt``
 
+#. The chapter illustrating the use of MALLET needs a java compiler, on
+   Debian-based Linux such as Ubuntu you may install java with: ``sudo apt-get install 
+
+   ``sudo apt-get install openjdk-7-jre-headless``
+
 #. Build the documentation:
 
    ``make html``
