@@ -54,10 +54,10 @@ parameter. Other important parameters include:
 - ``min_df`` (default ``1``) remove terms from the vocabulary that occur in
   fewer than ``min_df`` documents (in a large corpus this may be set to
   ``15`` or higher to eliminate very rare words)
-- ``vocabulary`` ignore words that do not appear in the provided list of words 
+- ``vocabulary`` ignore words that do not appear in the provided list of words
 - ``strip_accents`` remove accents
 - ``token_pattern`` (default ``u'(?u)\b\w\w+\b'``) regular expression
-  identifying tokens–by default words that consist of a single character 
+  identifying tokens–by default words that consist of a single character
   (e.g., 'a', '2') are ignored, setting ``token_pattern`` to ``'(?u)\b\w+\b'``
   will include these tokens
 - ``tokenizer`` (default unused) use a custom function for tokenizing
@@ -88,7 +88,7 @@ into a NumPy array, as an array supports a greater variety of operations than
 a list.
 
 .. ipython:: python
-    
+
     # for reference, note the current class of `dtm`
     type(dtm)
     dtm = dtm.toarray()  # convert to a regular array
@@ -195,7 +195,7 @@ avail ourselves of the ``scikit-learn`` function ``euclidean_distances``.
         for j in range(n):
             x, y = dtm[i, :], dtm[j, :]
             dist[i, j] = np.sqrt(np.sum((x - y)**2))
-    
+
     from sklearn.metrics.pairwise import euclidean_distances
     dist = euclidean_distances(dtm)
 
@@ -360,7 +360,7 @@ produces a hierarchical clustering of texts via the following procedure:
 #. Start with each text in its own cluster
 
 #. Until only a single cluster remains,
-   
+
    - Find the closest clusters and merge them. The distance between two clusters
      is the change in the sum of squared distances when they are merged.
 
@@ -372,16 +372,18 @@ this algorithm and returns a tree of cluster-merges. The hierarchy of clusters
 can be visualized using ``scipy.cluster.hierarchy.dendrogram``.
 
 .. ipython:: python
-    
+
     from scipy.cluster.hierarchy import ward, dendrogram
 
     linkage_matrix = ward(dist)
-    
+
     # match dendrogram to that returned by R's hclust()
-    dendrogram(linkage_matrix, orientation="right", labels=names);
+    dendrogram(linkage_matrix, orientation="right", labels=names)
+
+    plt.tight_layout()  # fixes margins
 
     @savefig plot_getting_started_ward_dendrogram.png width=7in
-    plt.tight_layout()  # fixes margins
+    plt.show()
 
 For those familiar with R, the procedure is performed as follows:
 
@@ -409,7 +411,7 @@ Exercises
     text1 = "Indeed, she had a rather kindly disposition."
     text2 = "The real evils, indeed, of Emma's situation were the power of having rather too much her own way, and a disposition to think a little too well of herself;"
     text3 = "The Jaccard distance is a way of measuring the distance from one set to another set."
-   
+
 3. Using the document-term matrix just created, calculate the Euclidean
    distance, `Jaccard distance <http://en.wikipedia.org/wiki/Jaccard_index>`_,
    and cosine distance between each pair of documents. Make sure to calculate

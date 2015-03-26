@@ -490,8 +490,4 @@ to be associated more strongly with Austen's novels than with Brontë's.
 
 .. FOOTNOTES
 
-.. [#fnmapreduce] Those familiar with
-    `MapReduce <https://en.wikipedia.org/wiki/MapReduce>`_ may recognize the pattern of
-    splitting a dataset into smaller pieces and then (re)ordering them.
-
-
+.. [#fnmapreduce] Those familiar with `MapReduce <https://en.wikipedia.org/wiki/MapReduce>`_ may recognize the pattern of splitting a dataset into smaller pieces and then (re)ordering them.

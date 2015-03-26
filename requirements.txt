@@ -11,3 +11,4 @@ scipy>=0.13.3
 sphinxcontrib-bibtex>=0.3.1
 sphinxcontrib-tikz>=0.4.1
 statsmodels>=0.6.0
+sphinx-rtd-theme>=0.1.6
