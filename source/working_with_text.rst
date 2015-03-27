@@ -100,8 +100,13 @@ a list.
     matrix by default, consider a 4000 by 50000 matrix of word frequencies that
     is 60% zeros. In Python an integer takes up four bytes, so using a sparse
     matrix saves almost 500M of memory, which is a considerable amount of
-    computer memory. (Recall that Python objects such as arrays are stored in
-    memory, not on disk).
+    computer memory in the 2010s. (Recall that Python objects such as arrays are stored in
+    memory, not on disk). If you are working with a very large collection
+    of texts, you may encounter memory errors after issuing the commands above.
+    Provided your corpus is not truly massive, it may be advisable to locate
+    a machine with a greater amount of memory. For example, these days it is possible to
+    rent a machine with 64G of memory by the hour. Conducting experiments
+    on a random subsample (small enough to fit into memory) is also recommended.
 
 With this preparatory work behind us, querying the document-term matrix is
 simple. For example, the following demonstrate two ways finding how many times
@@ -130,7 +135,32 @@ matrix product :math:`XY`.)
     <http://docs.scipy.org/doc/numpy/reference/generated/numpy.matrix.html>`_
     data structure which can be useful if you are doing lots of matrix
     operations such as matrix product, inverse, and so forth. In general,
-    however, it is best to stick to NumPy arrays.
+    however, it is best to stick to NumPy arrays. In fact, if you are
+    using Python 3.5 you can make use of the matrix multiplication operator ``@``
+    and dispense with any need for the ``matrix`` type.
+
+Just so we have a sense of what we have just created, here is a section of the
+document-term matrix for a handful of selected words:
+
+.. ipython:: python
+    :suppress:
+
+    import os
+    import pandas as pd
+    OUTPUT_HTML_PATH = os.path.join('source', 'generated')
+    OUTPUT_FILENAME = 'working_with_text_dtm.txt'
+    names = [os.path.basename(fn) for fn in filenames]
+    vocab_oi = sorted(['house', 'of', 'and', 'the', 'home', 'emma'])
+    vocab_oi_indicator = np.in1d(vocab, vocab_oi)
+    ARR, ROWNAMES, COLNAMES = dtm[:, vocab_oi_indicator], names, vocab[vocab_oi_indicator]
+
+    html = pd.DataFrame(ARR, index=ROWNAMES, columns=COLNAMES).to_html()
+    open(os.path.join(OUTPUT_HTML_PATH, OUTPUT_FILENAME), 'w').write(html)
+
+
+.. raw:: html
+    :file: generated/working_with_text_dtm.txt
+
 
 Comparing texts
 ===============

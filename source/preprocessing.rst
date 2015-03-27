@@ -181,6 +181,16 @@ shows the first plays in the corpus:
     # rather than just 'Crebillon_TR-V-1703-Idomenee.txt' alone.
     tragedy_filenames = [os.path.join(corpus_path, fn) for fn in sorted(os.listdir(corpus_path))]
 
+    @suppress
+    tragedy_filenames_orig = tragedy_filenames.copy()
+
+    # alternatively, using the Python standard library package 'glob'
+    import glob
+    tragedy_filenames = glob.glob(corpus_path + os.sep + '*.txt')
+
+    @suppress
+    assert sorted(tragedy_filenames) == sorted(tragedy_filenames_orig)
+
 
 Every 1,000 words
 -----------------
@@ -225,6 +235,8 @@ a number for the chunk, and the text of the chunk.
 .. ipython:: python
 
     tragedy_filenames = [os.path.join(corpus_path, fn) for fn in sorted(os.listdir(corpus_path))]
+    # alternatively, using glob
+    tragedy_filenames = glob.glob(corpus_path + os.sep + '*.txt')
     chunk_length = 1000
     chunks = []
     for filename in tragedy_filenames:
@@ -410,6 +422,10 @@ will benefit from reviewing the introductions to NumPy mentioned in
 
     @suppress
     dtm_authors_method_numpy = dtm_authors.copy()
+
+.. note:: Recall that gathering together the sum of the entries along columns is
+    performed with ``np.sum(X, axis=0)`` or ``X.sum(axis=0)``. This is
+    the NumPy equivalent of R's ``apply(X, 2, sum)`` (or ``colSums(X)``).
 
 Grouping data together in this manner is such a common problem in data analysis
 that there are packages devoted to making the work easier. For example, if you
