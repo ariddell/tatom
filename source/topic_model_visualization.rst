@@ -426,8 +426,8 @@ share of words associated with each topic:
     @savefig plot_word_topic.png width=7in
     plt.tight_layout()
 
-We can see that topic 0 is much more concentrated on the words shown above
-whereas topic 3 is much more diffuse (or uniform). Another way to appreciate
+We can see that topic 3 is much more concentrated on the words shown above
+whereas topic 0 is much more diffuse (or uniform). Another way to appreciate
 this is to calculate the number of word *types* associated with each topic:
 
 .. ipython:: python
@@ -435,8 +435,8 @@ this is to calculate the number of word *types* associated with each topic:
     np.sum(word_topic > 0, axis=0)
 
 This shows us that a greater diversity of vocabulary items are associated with
-topic 3 (likely many of the French words that appear only in Brontë's *The
-Professor*) than with topic 0.
+topic 0 (likely many of the French words that appear only in Brontë's *The
+Professor*) than with topic 3.
 
 .. FOOTNOTES
 
