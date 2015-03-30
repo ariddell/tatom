@@ -37,9 +37,6 @@ Contents
    datasets
    references
 
-..  unfinished drafts:
-    predicting_frequencies
-
 .. figure:: _static/plot_doctopic_heatmap.png
     :scale: 60 %
     :alt: Heatmap of topic shares in the ``austen-brontë`` corpus. See :ref:`topic_model_visualization`.

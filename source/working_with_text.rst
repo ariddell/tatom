@@ -155,6 +155,7 @@ document-term matrix for a handful of selected words:
     ARR, ROWNAMES, COLNAMES = dtm[:, vocab_oi_indicator], names, vocab[vocab_oi_indicator]
 
     html = pd.DataFrame(ARR, index=ROWNAMES, columns=COLNAMES).to_html()
+    # This isn't kosher (open file handle) but avoids frustrating Sphinx errors
     open(os.path.join(OUTPUT_HTML_PATH, OUTPUT_FILENAME), 'w').write(html)
 
 

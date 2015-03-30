@@ -34,6 +34,7 @@ words may be calculated by summing the rows of the document-term matrix, as each
 row corresponds to one document.
 
 .. ipython:: python
+    :okwarning:
 
     import os
 
@@ -259,6 +260,8 @@ the component values associated with each document sum to one.
 
 .. ipython:: python
 
+    # to avoid division by 0 (not a problem with LDA) we add a tiny value to each cell.
+    doctopic_chunks += 1e-6  # 1e-6 is the same as 0.000001
     doctopic_chunks = doctopic_chunks / np.sum(doctopic_chunks, axis=1, keepdims=True)
 
 As we did in :ref:`previous sections <topic-model-mallet>`, we will aggregate

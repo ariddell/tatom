@@ -75,7 +75,7 @@ there are a number of tokenization strategies in circulation.
 Here are a number of examples of tokenizing functions:
 
 .. ipython:: python
-    
+
     # note: there are three spaces between "at" and "her" to make the example more
     # realistic (texts are frequently plagued by such idiosyncracies)
     text = "She looked at   her father's arm-chair."
@@ -233,10 +233,15 @@ will be one dictionary for each chunk, containing the original filename,
 a number for the chunk, and the text of the chunk.
 
 .. ipython:: python
+    :okwarning:
 
     tragedy_filenames = [os.path.join(corpus_path, fn) for fn in sorted(os.listdir(corpus_path))]
     # alternatively, using glob
     tragedy_filenames = glob.glob(corpus_path + os.sep + '*.txt')
+
+    # for consistency across platforms (Linux, OS X, Windows) we must sort the filenames
+    tragedy_filenames.sort()
+
     chunk_length = 1000
     chunks = []
     for filename in tragedy_filenames:
@@ -319,7 +324,7 @@ paragraphs. That is, if the text of *Jane Eyre* is contained in the variable
 paragraphs:
 
 .. ipython:: python
-    
+
     text = "There was no possibility of taking a walk that day. We had been wandering, indeed, in the leafless shrubbery an hour in the morning; but since dinner (Mrs. Reed, when there was no company, dined early) the cold winter wind had brought with it clouds so sombre, and a rain so penetrating, that further out-door exercise was now out of the question.\nI was glad of it: I never liked long walks, especially on chilly afternoons: dreadful to me was the coming home in the raw twilight, with nipped fingers and toes, and a heart saddened by the chidings of Bessie, the nurse, and humbled by the consciousness of my physical inferiority to Eliza, John, and Georgiana Reed."
     text
     paragraphs = text.split('\n')
@@ -360,7 +365,7 @@ file) with the name of its author. As before we will use a list of dictionaries
 to manage our data.
 
 .. ipython:: python
-    
+
     # in every filename the author's last name is followed by an underscore ('_'),
     # for example: Voltaire_TR-V-1764-Olympie.txt
 
@@ -404,6 +409,7 @@ will benefit from reviewing the introductions to NumPy mentioned in
 :ref:`getting-started`.)
 
 .. ipython:: python
+    :okwarning:
 
     # first get a document-term-matrix of word frequencies for our corpus
     vectorizer = CountVectorizer(input='filename')
@@ -412,13 +418,13 @@ will benefit from reviewing the introductions to NumPy mentioned in
 
 .. ipython:: python
 
-    authors = [os.path.basename(filename).split('_')[0] for filename in tragedy_filenames]
+    authors = np.array([os.path.basename(filename).split('_')[0] for filename in tragedy_filenames])
 
     # allocate an empty array to store our aggregated word frequencies
     authors_unique = sorted(set(authors))
     dtm_authors = np.zeros((len(authors_unique), len(vocab)))
     for i, author in enumerate(authors_unique):
-        dtm_authors[i,:] = np.sum(dtm[authors==author, :], axis=0)
+        dtm_authors[i, :] = np.sum(dtm[authors==author, :], axis=0)
 
     @suppress
     dtm_authors_method_numpy = dtm_authors.copy()
@@ -442,7 +448,7 @@ accomplish what we just did in two lines of code:
     dtm_authors_method_pandas = dtm_authors.copy()
 
     @suppress
-    assert all(dtm_authors_method_pandas == dtm_authors_method_numpy)
+    np.testing.assert_array_almost_equal(dtm_authors_method_pandas, dtm_authors_method_numpy)
 
 A more general strategy for grouping data together makes use of the ``groupby``
 function in the Python standard library `itertools
@@ -451,7 +457,7 @@ advantage of being fast and memory efficient. As a warm-up exercise, we will
 group just the filenames by author using ``groupby`` function.
 
 .. ipython:: python
-    
+
     import itertools
     import operator
 
@@ -486,6 +492,7 @@ information we want to aggregate and the key---the author's name---that
 identifies each group.
 
 .. ipython:: python
+    :okwarning:
 
     texts = []
     # we will use the index i to get the corresponding row of the document-term matrix
@@ -506,8 +513,7 @@ identifies each group.
     @suppress
     dtm_authors_method_groupby = dtm_authors.copy()
 
-    @suppress
-    assert all(dtm_authors_method_groupby == dtm_authors_method_numpy)
+    np.testing.assert_array_almost_equal(dtm_authors_method_groupby, dtm_authors_method_numpy)
 
 Now that we have done the work of grouping these texts together, we can examine
 the relationships among the four authors using the exploratory techniques we
@@ -543,10 +549,11 @@ If, for instance, we had wanted to organize our texts into 50 year periods
 the publication year from the filename.
 
 .. ipython:: python
+    :okwarning:
 
     # extract year from filename
     years = [int(os.path.basename(fn).split('-')[2]) for fn in tragedy_filenames]
-    
+
     @suppress
     assert years[0] == 1703
 
@@ -561,6 +568,7 @@ Then we would create a list of group identifiers based on the periods that
 interest us:
 
 .. ipython:: python
+    :okwarning:
 
     # all the texts are published between 1600 and 1800
     # periods will be numbered 0, 1, 2, 3
@@ -568,7 +576,7 @@ interest us:
     period_boundaries = list(range(1650, 1800 + 1, 50))
     period_names = ["{}-{}".format(yr - 50, yr) for yr in period_boundaries]
     periods = []
-    
+
     for year in years:
         for i, boundary in enumerate(period_boundaries):
             if year < boundary:
@@ -584,7 +592,7 @@ interest us:
     list(zip(period_names, np.bincount(periods)))
 
 Finally we would group the texts together using the same procedure as we did
-with authors. 
+with authors.
 
 .. ipython:: python
 
@@ -600,7 +608,7 @@ Exercises
 1. Write a tokenizer that, as it tokenizes, also transforms uppercase words into
    lowercase words. Consider using the string method ``lower``.
 
-2. Using your tokenizer, count the number of times ``green`` occurs in the 
+2. Using your tokenizer, count the number of times ``green`` occurs in the
    following text sample.
 
 ::

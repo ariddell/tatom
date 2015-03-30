@@ -15,7 +15,8 @@
     import shutil
     import subprocess
 
-    subprocess.check_call('zip -r -u source/datasets.zip data/french-tragedies-and-comedies/ data/french-tragedies-and-comedies-split/ data/french-tragedy data/french-tragedy-split data/french-plays data/austen-brontë data/austen-brontë-split data/stopwords/ data/british-fiction-corpus data/hugo-les-misérables data/hugo-les-misérables-original data/hugo-les-misérables-split', shell=True)
+    # NOTE: zip returns an exit code 12 if everything is up-to-date
+    subprocess.check_call('zip -q -r -u source/datasets.zip data/french-tragedies-and-comedies/ data/french-tragedies-and-comedies-split/ data/french-tragedy data/french-tragedy-split data/french-plays data/austen-brontë data/austen-brontë-split data/stopwords/ data/british-fiction-corpus data/hugo-les-misérables data/hugo-les-misérables-original data/hugo-les-misérables-split', shell=True)
 
 
 
